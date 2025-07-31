@@ -32,6 +32,10 @@ The model uses 7 key climate forcing variables from the **Canadian Surface Reana
 
 ## Data Storage and Access
 
+### Streamflow input File
+Stored locally (not hosted on GitHub due to size)
+Size: ~176 MB
+
 ### Forcing File
 Stored locally (not hosted on GitHub due to size): 
 

@@ -30,6 +30,10 @@ The model uses 7 key climate forcing variables from the **Canadian Surface Reana
 
 ## Data Storage and Access
 
+### Streamflow input File
+Stored locally (not hosted on GitHub due to size)
+Size: ~176 MB
+
 ### Forcing File
 Stored locally (K:\NAS_Project\NAS_Model_Runs\Lap0_Basecase_0_01\Camels_Spat) (not hosted on GitHub due to size)
 Size: ~80 GB
