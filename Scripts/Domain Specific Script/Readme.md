@@ -1,7 +1,6 @@
 # NAS Project Scripts
 
-This folder contains Bash and Python scripts used in the National Adaptation Strategy (NAS) hydrological modeling workflow. These scripts support the automation of climate data processing, model execution, and ensemble post-processing.
-
+This folder contains Bash and Python scripts used in the National Adaptation Strategy (NAS) hydrological modeling workflow.
 ## 📂 Script Descriptions
 
 | Script Name                      | Description                                                                 |
