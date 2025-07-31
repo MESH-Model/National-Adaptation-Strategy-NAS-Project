@@ -1,2 +1,43 @@
+# === Hydrological Modeling Project Ignore Rules ===
+
+# Ignore all model input/output files over 100MB (typically binary or gridded)
 *.tb0
-*.tb0
+*.nc
+*.nc4
+*.grib
+*.hdf
+*.bin
+
+# Ignore large CSV and text exports
+*.csv
+*.tsv
+*.txt
+*.dat
+
+# Ignore runtime files and logs
+*.log
+*.tmp
+*.bak
+*.out
+*.err
+
+# Ignore directories for model outputs and simulations
+/output/
+/results/
+/tmp/
+/logs/
+/work/
+
+# Ignore Jupyter and Python cache
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Ignore virtual environments and package metadata
+.env/
+.venv/
+*.egg-info/
+
+# Ignore system/OS files
+.DS_Store
+Thumbs.db
