@@ -7,6 +7,8 @@ This lap includes a large-scale MESH model setup for **all of Canada** and **tra
 
 This is out of the box run with the default parameters for CLASS.ini and Hydrology.ini based on previous study.
 
+Sub basin is aggregated to 100 km2
+
 ## Data Description
 
 ### Forcing Data
@@ -37,6 +39,7 @@ Size: ~527 GB
 ### Model Output
 Stored locally (not hosted on GitHub due to size) K:\NAS_Project\NAS_Model_Runs\Lap0_Basecase_0_0\OBASINAVG
 Size: ~4 GB
-Model outputs can be provided upon request. Please contact the project team for access.
+
+Forcing and Model outputs can be provided upon request. Please contact the project team for access.
 
 ---

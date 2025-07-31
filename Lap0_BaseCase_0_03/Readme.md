@@ -6,11 +6,13 @@
 
 This lap includes a large-scale MESH model setup for **all of Canada** and **transboundary river basins** shared between Canada and the United States.
 
+The parameters in CLASS.ini are GRU Based and is based on the Basin average for Soil, SDEP, Slope.
+
 ## Data Description
 
 ### Forcing Data
 
-The model uses 7 key climate forcing variables from the **Canadian Surface Reanalysis (CaSR v2.1)** dataset [(Gasset et al., 2021)](https://doi.org/10.5194/essd-13-4269-2021), formerly known as RDRS2.1:
+The model uses 7 key climate forcing variables from the **Canadian Surface Reanalysis (CaSR v3.1)** dataset [(Gasset et al., 2021)](https://doi.org/10.5194/essd-13-4269-2021), formerly known as RDRS2.1:
 
 - Precipitation  
 - Specific humidity  
@@ -31,12 +33,11 @@ The model uses 7 key climate forcing variables from the **Canadian Surface Reana
 ## Data Storage and Access
 
 ### Forcing File
-Stored locally (not hosted on GitHub due to size): K:\NAS_Project\NAS_Model_Runs\Lap0_Basecase_0_0\MESH_input_CanTrans_CaSRv2p1_1980_2018.nc
-Size: ~527 GB
+Stored locally (not hosted on GitHub due to size): 
 
 ### Model Output
-Stored locally (not hosted on GitHub due to size) K:\NAS_Project\NAS_Model_Runs\Lap0_Basecase_0_0\OBASINAVG
-Size: ~4 GB
+Stored locally (not hosted on GitHub due to size) 
+
 Model outputs can be provided upon request. Please contact the project team for access.
 
 ---
