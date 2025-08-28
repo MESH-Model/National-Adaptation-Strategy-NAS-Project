@@ -33,13 +33,18 @@ The model uses 7 key climate forcing variables from the **Canadian Surface Reana
 ## Data Storage and Access
 
 ### Forcing File
-Stored locally (not hosted on GitHub due to size): K:\NAS_Project\NAS_Model_Runs\Lap0_Basecase_0_0\MESH_input_CanTrans_CaSRv2p1_1980_2018.nc
+Stored locally (not hosted on GitHub due to size): (Beast) K:\NAS_Project\NAS_Model_Runs\Lap0_Basecase_0_0\MESH_input_CanTrans_CaSRv2p1_1980_2018.nc
 Size: ~527 GB
 
 ### Model Output
-Stored locally (not hosted on GitHub due to size) K:\NAS_Project\NAS_Model_Runs\Lap0_Basecase_0_0\OBASINAVG
+Stored locally (not hosted on GitHub due to size) (Beast) K:\NAS_Project\NAS_Model_Runs\Lap0_Basecase_0_0\OBASINAVG
 Size: ~4 GB
 
 Forcing and Model outputs can be provided upon request. Please contact the project team for access.
 
+### Contacts
+- Sujata Budhathoki  
+- Zelalem Tessema  
+- Frank Seglenieks
+- Bruce Davison
 ---
