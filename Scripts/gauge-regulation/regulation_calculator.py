@@ -6,16 +6,18 @@
 
 import pandas as pd
 from exactextract import exact_extract
+from rasterstats import zonal_stats
 import geopandas as gpd
 from time import time
 
 
-# In[2]:
+# In[8]:
 
 
 #print('Enter Directory where the files basins.shp, gauges.shp, and precipitation.tif can be found.\n')
 
 directory = input('Paste directory for data files "basins.shp", "gauges.shp", and "precipitation.tif": ')
+stats = int(input('Select extraction method (1-exactextract or 2-rasterstats): '))
 
 start = time() # Record start time of program execution
 
@@ -72,16 +74,25 @@ def basin_map(basins, gauges):
     return basin_map # Return dictionary of subbasin lists
 
 
-# In[5]:
+# In[9]:
 
 
 print('Calculating zonal statistics...') # Print visual feedback
-precipitation = exact_extract(precipitation, basins_shape, ['mean'], include_cols = ['SubId'], output = 'pandas') # Compute zonal statistics for each subbasin
-basins = pd.merge(basins, precipitation, on = 'SubId').rename(columns = {'mean':'Precip_Mean'}) # Join the DataFrames with the 'SubId' field
+
+if stats == 1: # Compute zonal mean for each subbasin using exactextract
+    
+    precipitation = exact_extract(precipitation, basins_shape, ['mean'], include_cols = ['SubId'], output = 'pandas')
+    basins = pd.merge(basins, precipitation, on = 'SubId').rename(columns = {'mean':'Precip_Mean'}) # Join the DataFrames with the 'SubId' field
+
+elif stats == 2: # Alternatively, compute zonal mean for each subbasin using rasterstats
+    
+    precipitation = zonal_stats(basins_shape, precipitation, stats = 'mean', all_touched = True, geojson_out = True)
+    basins = pd.DataFrame([f['properties'] for f in precipitation]).rename(columns = {'mean':'Precip_Mean'}) # Construct from the GeoJSON
+        
 total_gauges = gauges.shape[0] # Precompute the number of gauges to save processing time
 
 
-# In[6]:
+# In[10]:
 
 
 for index, row in gauges.copy().iterrows(): # Check for stream gauges not represented within the network
@@ -95,7 +106,7 @@ print() # Print a newline
 gauge_map = basin_map(basins, gauges) # Determine the set of drainage polygons for each stream gauge
 
 
-# In[7]:
+# In[12]:
 
 
 basin_storage = {} # Initiate the storage dictionary
