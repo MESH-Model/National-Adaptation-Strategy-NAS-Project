@@ -1,0 +1,13 @@
+PREC		D nc
+ET		D nc
+QO		D nc
+ROF		D nc
+SNO		D nc
+LQWSSNO		D nc
+ALWSSOL		D nc
+STGW		D nc 
+DSTGW		D nc
+WR_RUNOFF	H nc 
+WR_RECHARGE	H nc
+#RFF             H nc
+#RCHG            H nc
