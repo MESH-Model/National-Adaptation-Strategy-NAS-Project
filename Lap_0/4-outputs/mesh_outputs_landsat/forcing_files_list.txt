@@ -1,0 +1,3 @@
+/home/zelalem/mesh_outputs/forcings/remapped_remapped_casr_1980010312.nc
+/home/zelalem/mesh_outputs/forcings/remapped_remapped_casr_1980010412.nc
+/home/zelalem/mesh_outputs/forcings/remapped_remapped_casr_1980010512.nc

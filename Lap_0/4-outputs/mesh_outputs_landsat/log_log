@@ -1,0 +1,72 @@
+netcdf MESH_drainage_database_Polish_0p05_0p02_0p01 {
+dimensions:
+	subbasin = 77017 ;
+	NGRU = 16 ;
+variables:
+	int64 subbasin(subbasin) ;
+	double ChnlSlope(subbasin) ;
+		ChnlSlope:_FillValue = NaN ;
+		ChnlSlope:long_name = "Segment slope" ;
+		ChnlSlope:grid_mapping = "crs" ;
+		ChnlSlope:units = "dimensionless" ;
+		ChnlSlope:coordinates = "lon lat time" ;
+	double ChnlLength(subbasin) ;
+		ChnlLength:_FillValue = NaN ;
+		ChnlLength:long_name = "Segment length" ;
+		ChnlLength:grid_mapping = "crs" ;
+		ChnlLength:units = "meter" ;
+		ChnlLength:coordinates = "lon lat time" ;
+	int IAK(subbasin) ;
+		IAK:standard_name = "IAK" ;
+		IAK:long_name = "River class number (IAK)" ;
+		IAK:grid_mapping = "crs" ;
+		IAK:units = "dimensionless" ;
+		IAK:coordinates = "lon lat time" ;
+	int Rank(subbasin) ;
+		Rank:_FillValue = -1 ;
+		Rank:standard_name = "Rank" ;
+		Rank:long_name = "Element ID" ;
+		Rank:grid_mapping = "crs" ;
+		Rank:coordinates = "lon lat time" ;
+	int Next(subbasin) ;
+		Next:_FillValue = -1 ;
+		Next:standard_name = "Next" ;
+		Next:long_name = "Receiving ID" ;
+		Next:grid_mapping = "crs" ;
+		Next:coordinates = "lon lat time" ;
+	double GridArea(subbasin) ;
+		GridArea:_FillValue = NaN ;
+		GridArea:long_name = "HRU Area" ;
+		GridArea:grid_mapping = "crs" ;
+		GridArea:units = "m ** 2" ;
+		GridArea:coordinates = "lon lat time" ;
+	double lat(subbasin) ;
+		lat:_FillValue = NaN ;
+		lat:standard_name = "latitude" ;
+		lat:units = "degrees_north" ;
+		lat:axis = "X" ;
+	double lon(subbasin) ;
+		lon:_FillValue = NaN ;
+		lon:standard_name = "longitude" ;
+		lon:units = "degrees_east" ;
+		lon:axis = "Y" ;
+	int64 crs ;
+		crs:grid_mapping_name = "latitude_longitude" ;
+		crs:longitude_of_prime_meridian = 0. ;
+		crs:semi_major_axis = 6378137. ;
+		crs:inverse_flattening = 298.257223563 ;
+	double GRU(subbasin, NGRU) ;
+		GRU:_FillValue = NaN ;
+		GRU:standard_name = "GRU" ;
+		GRU:long_name = "Group Response Unit" ;
+		GRU:coordinates = "lat lon" ;
+	string LandUse(NGRU) ;
+		LandUse:standard_name = "Landuse classification name" ;
+		LandUse:units = "dimensionless" ;
+
+// global attributes:
+		:author = "University of Calgary" ;
+		:license = "GNU General Public License v3 (or any later version)" ;
+		:purpose = "Create a drainage database .nc file for MESH" ;
+		:featureType = "point" ;
+}
