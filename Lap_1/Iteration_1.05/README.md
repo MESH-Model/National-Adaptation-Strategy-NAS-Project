@@ -1,14 +1,15 @@
 
 ---
 
-# Iteration 1.01
+# Iteration 1.05
 
 ## Model Setup and Metadata
 
 **Version:** 1860_ME_ZT
-**Period:** 1980–2018
+**Period:** 1950–2014
+**Scenario:** CanESM5 Historical
 
-This lap includes a MESH model setup for all of Canada, including transboundary basins
+This lap includes a MESH model setup for the Climate Change Benchmark Basins
 
 Default parameter value from CLASS 3.6 Technical documentation, MESH-setup with additional outlet [(Princz et al., 2024)](https://mesh-model.atlassian.net/wiki/spaces/USER/pages/6390880/Canadian+Land+Surface+Scheme+CLASS)
 
@@ -17,7 +18,7 @@ Default parameter value from CLASS 3.6 Technical documentation, MESH-setup with 
 
 ### Forcing Data
 
-The model uses 7 key climate forcing variables from the **Canadian Surface Reanalysis (CaSR v2.1)** dataset [(Keshavarz, 2024)](https://datatool.readthedocs.io/en/latest/datasets.html#summary), formerly known as RDRS2.1:
+The model uses 7 key climate forcing variables from the **Coupled Model Intercomparison Project (CMIP6)** dataset, downscaled but not bias-corrected [(Keshavarz, 2024)](https://datatool.readthedocs.io/en/latest/datasets.html#summary):
 
 - Precipitation  
 - Specific humidity  
@@ -35,21 +36,19 @@ The model uses 7 key climate forcing variables from the **Canadian Surface Reana
 
 ### Benchmarks
 
-- Kling-Gupta Efficiency (KGE)
-- Nash-Sutcliffe Efficiency (NSE)
-- Bias distribution for CAMELS-SPAT network
+- Comparison between CMIP5 and 6
 
 ---
 
 ## Data Storage and Access
 
-### Forcing File (`Lap_1\Iteration_1.01\01_Forcing`)
+### Forcing File (`Lap_1\Iteration_1.05\01_Forcing`)
 Stored locally (not hosted on GitHub due to size)
-Size: 552.9 GB
+Size: Unavailable
 
-### Model Output (`Lap_1\Iteration_1.01\03_Model_Results`)
+### Model Output (`Lap_1\Iteration_1.05\03_Model_Results`)
 Stored locally (not hosted on GitHub due to size) 
-Size: 49.5 GB
+Size: Unavailable
 
 Forcing dataset and Model outputs can be provided upon request. Please contact the project team for access.
 
