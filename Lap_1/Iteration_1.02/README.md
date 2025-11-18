@@ -6,6 +6,7 @@
 ## Model Setup and Metadata
 
 **Version:** 1860_ME_ZT
+
 **Period:** 1980–2018
 
 This lap includes a MESH model setup for Catchment Attributes and MEteorology for Large-Sample SPATially distributed analysis (CAMELS-SPAT) Basin
@@ -44,15 +45,17 @@ The model uses 7 key climate forcing variables from the **Canadian Surface Reana
 ## Data Storage and Access
 
 ### Forcing File (`Lap_1\Iteration_1.02\01_Forcing`)
+
 Stored locally (not hosted on GitHub due to size)
+
 Size: Unavailable
 
 ### Model Output (`Lap_1\Iteration_1.02\03_Model_Results`)
+
 Stored locally (not hosted on GitHub due to size) 
+
 Size: Unavailable
 
 Forcing dataset and Model outputs can be provided upon request. Please contact the project team for access.
-
-**References (Unfinished)**
 
 ---

@@ -6,7 +6,9 @@
 ## Model Setup and Metadata
 
 **Version:** 1860_ME_ZT
+
 **Period:** 1950–2014
+
 **Scenario:** CanESM5 Historical
 
 This lap includes a MESH model setup for the Climate Change Benchmark Basins
@@ -43,15 +45,17 @@ The model uses 7 key climate forcing variables from the **Coupled Model Intercom
 ## Data Storage and Access
 
 ### Forcing File (`Lap_1\Iteration_1.05\01_Forcing`)
+
 Stored locally (not hosted on GitHub due to size)
+
 Size: Unavailable
 
 ### Model Output (`Lap_1\Iteration_1.05\03_Model_Results`)
+
 Stored locally (not hosted on GitHub due to size) 
+
 Size: Unavailable
 
 Forcing dataset and Model outputs can be provided upon request. Please contact the project team for access.
-
-**References (Unfinished)**
 
 ---
