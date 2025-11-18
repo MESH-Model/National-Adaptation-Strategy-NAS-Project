@@ -6,6 +6,7 @@
 ## Model Setup and Metadata
 
 **Version:** 1860_ME_ZT
+
 **Period:** 1980–2018
 
 This lap includes a MESH model setup for all of Canada, including transboundary basins
@@ -44,15 +45,17 @@ The model uses 7 key climate forcing variables from the **Canadian Surface Reana
 ## Data Storage and Access
 
 ### Forcing File (`Lap_1\Iteration_1.01\01_Forcing`)
+
 Stored locally (not hosted on GitHub due to size)
+
 Size: 552.9 GB
 
 ### Model Output (`Lap_1\Iteration_1.01\03_Model_Results`)
+
 Stored locally (not hosted on GitHub due to size) 
+
 Size: 49.5 GB
 
 Forcing dataset and Model outputs can be provided upon request. Please contact the project team for access.
-
-**References (Unfinished)**
 
 ---
