@@ -35,11 +35,13 @@ The domain reflects the geographical and hydrological diversity of Canada's rive
 
 This repository includes multiple configurations (based on the Model run configuration sequencing strategy) of the MESH hydrological model as part of the initial NAS project analysis:
 
-- **Lap0_Base_case_0_0** – Uncalibrated parameters (baseline)- Default parameters - All of Canada and Transboundary Basins
-- **Lap0_Base_case_0_01** – Uncalibrated parameters (baseline) - Default parameters -CamelSpat Basin 
-- **Lap0_Base_case_0_02** – Uncalibrated parameters (baseline) - Default parameters -Camel Spat Basin
-- **Lap0_Base_case_0_03** – Uncalibrated parameters (baseline) -GRU parameterization - All of Canada and Transboundary Basin
-- **Lap0_Base_case_0_04** – Uncalibrated parameters (baseline) - Distributed parameterization - All of Canada and Transboundary Basin
+- **Lap_0** - Model Agnostic Framework (MAF) model setup
+- **Lap_1** - Out-of-box parameter MESH runs on version 1860_ME_ZT
+	- **Iterations 1.01–1.03** - Base Case 0 run with uncalibrated parameters on CaSR
+	- **Iterations 1.04–1.09** - Sub-area initial climate change simulations with parametrization on CMIP
+- **Lap_2** - Parameters estimation from available data [MODIS LAI, Soil, DD, SDep]
+	- **Iterations 2.01–2.06** - Base Case 1 run with lumped/distributed parametrization on CaSR and domain chunking
+	- **Iterations 2.07–2.11** - Full domain initial climate change simulations with updated parametrization on CMIP
   
 Each case includes:
 - Configuration files for MESH
