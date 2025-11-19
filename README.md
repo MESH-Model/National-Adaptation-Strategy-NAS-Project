@@ -40,7 +40,7 @@ This repository includes multiple configurations (based on the Model run configu
 	- **Iterations 1.01–1.03** - Base Case 0 run with uncalibrated parameters on CaSR
 	- **Iterations 1.04–1.09** - Sub-area initial climate change simulations with parametrization on CMIP
 - **Lap_2** - Parameters estimation from available data [MODIS LAI, Soil, DD, SDep]
-	- **Iterations 2.01–2.06** - Base Case 1 run with lumped/distributed parametrization on CaSR and domain chunking
+	- **Iterations 2.01–2.06** - Base Case 1 run with lumped/distributed parametrization on CaSR and chunking
 	- **Iterations 2.07–2.11** - Full domain initial climate change simulations with updated parametrization on CMIP
   
 Each case includes:
