@@ -20,7 +20,7 @@ GRU parameterization: Derived GRUs average MESH parameter value are used
 
 ### Forcing Data
 
-The model uses 7 key climate forcing variables from the **Canadian Surface Reanalysis (CaSR v3.1)** dataset [(Keshavarz, 2024)](https://datatool.readthedocs.io/en/latest/datasets.html#summary):
+The model uses 7 key climate forcing variables from the **Canadian Surface Reanalysis (CaSR v3.1)** dataset. More information on the dataset can be retrieved from [(here)](https://datatool.readthedocs.io/en/latest/datasets.html#summary)
 
 - Precipitation  
 - Specific humidity  

@@ -20,7 +20,7 @@ This lap includes a MESH model setup for all of Canada, including transboundary 
 
 ### Forcing Data
 
-The model uses 7 key climate forcing variables from the **TBD** dataset [(Keshavarz, 2024)](https://datatool.readthedocs.io/en/latest/datasets.html#summary):
+The model uses 7 key climate forcing variables from the **TBD** dataset. More information on the dataset can be retrieved from [(here)](https://datatool.readthedocs.io/en/latest/datasets.html#summary)
 
 - Precipitation  
 - Specific humidity  

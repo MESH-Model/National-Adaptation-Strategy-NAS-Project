@@ -11,14 +11,15 @@
 
 This lap includes a MESH model setup for Catchment Attributes and MEteorology for Large-Sample SPATially distributed analysis (CAMELS-SPAT) Basin
 
-Default parameter value from CLASS 3.6 Technical documentation, MESH-setup with additional outlet [(Princz et al., 2024)](https://mesh-model.atlassian.net/wiki/spaces/USER/pages/6390880/Canadian+Land+Surface+Scheme+CLASS)
+Default parameter value from CLASS 3.6 Technical documentation, MESH-setup with additional outlet [(CLASS 3.6 Technical documentation)](https://mesh-model.atlassian.net/wiki/spaces/USER/pages/6390880/Canadian+Land+Surface+Scheme+CLASS)
+
 
 
 ## Data Description
 
 ### Forcing Data
 
-The model uses 7 key climate forcing variables from the **Canadian Surface Reanalysis (CaSR *v3.1*)** dataset [(Keshavarz, 2024)](https://datatool.readthedocs.io/en/latest/datasets.html#summary):
+The model uses 7 key climate forcing variables from the **Canadian Surface Reanalysis (CaSR v3.1)** dataset. More information on the dataset can be retrieved from [(here)](https://datatool.readthedocs.io/en/latest/datasets.html#summary)
 
 - Precipitation  
 - Specific humidity  

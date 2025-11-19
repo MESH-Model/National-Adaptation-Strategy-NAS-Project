@@ -11,14 +11,15 @@
 
 This lap includes a MESH model setup for the Climate Change Benchmark Basins
 
-Default parameter value from CLASS 3.6 Technical documentation, MESH-setup with additional outlet [(Princz et al., 2024)](https://mesh-model.atlassian.net/wiki/spaces/USER/pages/6390880/Canadian+Land+Surface+Scheme+CLASS)
+Default parameter value from CLASS 3.6 Technical documentation, MESH-setup with additional outlet [(CLASS 3.6 Technical documentation)](https://mesh-model.atlassian.net/wiki/spaces/USER/pages/6390880/Canadian+Land+Surface+Scheme+CLASS)
+
 
 
 ## Data Description
 
 ### Forcing Data
 
-The model uses 7 key climate forcing variables from the **Coupled Model Intercomparison Project (CMIP5)** dataset, downscaled and bias corrected [(Keshavarz, 2024)](https://datatool.readthedocs.io/en/latest/datasets.html#summary):
+The model uses 7 key climate forcing variables from the **Coupled Model Intercomparison Project (CMIP5)** dataset, downscaled and bias corrected. More information on the dataset can be retrieved from [(here)](https://datatool.readthedocs.io/en/latest/datasets.html#summary)
 
 - Precipitation  
 - Specific humidity  
