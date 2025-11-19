@@ -18,7 +18,7 @@ Default parameter value from CLASS 3.6 Technical documentation, MESH-setup with 
 
 ### Forcing Data
 
-The model uses 7 key climate forcing variables from the **Canadian Surface Reanalysis (CaSR v2.1)** dataset ,formerly known as RDRS2.1. More information on the dataset can be retrieved from [(here)](https://datatool.readthedocs.io/en/latest/datasets.html#summary)
+The model uses 7 key climate forcing variables from the **Canadian Surface Reanalysis (CaSR v2.1)** dataset, formerly known as RDRS2.1. More information on the dataset can be retrieved from [(here)](https://datatool.readthedocs.io/en/latest/datasets.html#summary)
 
 - Precipitation  
 - Specific humidity  
