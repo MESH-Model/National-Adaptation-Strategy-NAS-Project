@@ -62,7 +62,7 @@ This repository includes multiple configurations (based on the **Model run confi
 - MESH configuration files
 - Metadata and Readme file
 
-## Project Team:
+## Project Team
 
 - Zelalem Tesemma, Environment and Climate Change Canada (zelalem.tesemma@ec.gc.ca)
 - Sujata Budhathoki, Environment and Climate Change Canada (sujata.budhathoki@ec.gc.ca)
@@ -70,6 +70,6 @@ This repository includes multiple configurations (based on the **Model run confi
 - Bruce Davison,Environment and Climate Change Canada
 - Riley Damen, Environment and Climate Chnage Canada
 
-## Disclaimer:
+## Disclaimer
 This is an active research repository. Model configurations, parameters, and outputs are subject to change as improvements are made. Please contact the project team before using this material for publications or decision-making applications.
 
