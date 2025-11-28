@@ -47,11 +47,11 @@ The model uses 7 key climate forcing variables from the **Coupled Model Intercom
 
 Stored locally (not hosted on GitHub due to size)
 
-Size: Unavailable
+Size: 477 GB
 
 ### Model Output (`Lap_1\Iteration_1.04\03_Model_Results`)
 
-Stored locally (not hosted on GitHub due to size) 
+Stored locally (not hosted on GitHub due to size), with the exception of output streamflow
 
 Size: Unavailable
 
