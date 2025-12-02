@@ -5,9 +5,9 @@
 
 ## Model Setup and Metadata
 
-**Version:** 1860_ME_ZT
+**MESH Version:** 1860_ME_ZT
 
-**Period:** 1950–2100
+**Time Period:** 1950–2100
 
 This lap includes a MESH model setup for the Climate Change Benchmark Basins
 
@@ -19,7 +19,7 @@ Default parameter value from CLASS 3.6 Technical documentation, MESH-setup with 
 
 ### Forcing Data
 
-The model uses 7 key climate forcing variables from the **Coupled Model Intercomparison Project (CMIP5)** dataset, downscaled and bias corrected. More information on the dataset can be retrieved from [(here)](https://datatool.readthedocs.io/en/latest/datasets.html#summary)
+The model uses 7 key climate forcing variables from the **Coupled Model Intercomparison Project (CMIP5)** dataset **CCRN CanRCM4-WFDEI-GEM-CaPA**, which is downscaled and bias corrected. More information on the dataset can be retrieved from [(here)](https://datatool.readthedocs.io/en/latest/datasets.html#summary)
 
 - Precipitation  
 - Specific humidity  
@@ -37,7 +37,7 @@ The model uses 7 key climate forcing variables from the **Coupled Model Intercom
 
 ### Benchmarks
 
-- Comparison between CMIP5 and 6
+- Comparison between CMIP5 and CMIP6
 
 ---
 

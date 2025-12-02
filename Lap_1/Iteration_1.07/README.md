@@ -21,7 +21,7 @@ Default parameter value from CLASS 3.6 Technical documentation, MESH-setup with 
 
 ### Forcing Data
 
-The model uses 7 key climate forcing variables from the **Coupled Model Intercomparison Project (CMIP6)** dataset, downscaled but not bias-corrected. More information on the dataset can be retrieved from [(here)](https://datatool.readthedocs.io/en/latest/datasets.html#summary)
+The model uses 7 key climate forcing variables from the **Coupled Model Intercomparison Project (CMIP6)** dataset **Ouranos MRCC5-CMIP6**, downscaled but not bias-corrected. For the initial climate run only one Model **CanESM5** is used More information on the dataset can be retrieved from [(here)](https://datatool.readthedocs.io/en/latest/datasets.html#summary)
 
 - Precipitation  
 - Specific humidity  
