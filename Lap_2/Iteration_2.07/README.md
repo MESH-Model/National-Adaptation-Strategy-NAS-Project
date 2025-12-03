@@ -47,6 +47,12 @@ The model uses 7 key climate forcing variables from the **TBD** dataset. More in
 
 ## Data Storage and Access
 
+### Setup Files (`Lap_2\Iteration_2.07\02_Model_Setup`)
+
+The following files are stored locally (not hosted on GitHub due to size):
+
+- `MESH_input_streamflow_latlon.tb0` (1.3 GB)
+
 ### Forcing File (`Lap_2\Iteration_2.07\01_Forcing`)
 
 Stored locally (not hosted on GitHub due to size)

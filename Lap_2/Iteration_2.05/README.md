@@ -57,7 +57,7 @@ Size: Unavailable
 
 Stored locally (not hosted on GitHub due to size) 
 
-Size: 50.5 GB
+Size: 51.9 GB
 
 Forcing dataset and Model outputs can be provided upon request. Please contact the project team for access.
 
