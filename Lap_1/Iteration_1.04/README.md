@@ -47,11 +47,31 @@ The model uses 7 key climate forcing variables from the **Coupled Model Intercom
 
 Stored locally (not hosted on GitHub due to size)
 
-Size: 477 GB
+Size: 513.2 GB
+
+```
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        11/16/2025   1:54 PM    34215025613 r10i2p1r1_merged_1951_2100.nc
+-a----        11/16/2025  12:38 PM    34215026147 r10i2p1r2_merged_1951_2100.nc
+-a----        11/16/2025   1:12 PM    34215027568 r10i2p1r3_merged_1951_2100.nc
+-a----        11/16/2025  12:38 PM    34215025869 r10i2p1r4_merged_1951_2100.nc
+-a----        11/16/2025   2:02 PM    34215027568 r10i2p1r5_merged_1951_2100.nc
+-a----          7/3/2025   5:12 PM    34215027344 r8i2p1r1_merged_1951_2100.nc
+-a----        11/18/2025   6:03 PM    34215025783 r8i2p1r2_merged_1951_2100.nc
+-a----        11/18/2025   5:51 PM    34215025681 r8i2p1r3_merged_1951_2100.nc
+-a----        11/18/2025   6:11 PM    34215025791 r8i2p1r4_merged_1951_2100.nc
+-a----        11/18/2025   6:26 PM    34215025789 r8i2p1r5_merged_1951_2100.nc
+-a----        11/18/2025   5:15 PM    34215026441 r9i2p1r1_merged_1951_2100.nc
+-a----        11/18/2025   5:11 PM    34215025789 r9i2p1r2_merged_1951_2100.nc
+-a----        11/18/2025   8:26 PM    34215025789 r9i2p1r3_merged_1951_2100.nc
+-a----        11/18/2025   6:18 PM    34215025789 r9i2p1r4_merged_1951_2100.nc
+-a----        11/18/2025   5:45 PM    34215025789 r9i2p1r5_merged_1951_2100.nc
+```
 
 ### Model Output (`Lap_1\Iteration_1.04\03_Model_Results`)
 
-Stored locally (not hosted on GitHub due to size), with the exception of output streamflow
+Stored locally (not hosted on GitHub due to size), **with the exception of output streamflow**
 
 Size: Unavailable
 

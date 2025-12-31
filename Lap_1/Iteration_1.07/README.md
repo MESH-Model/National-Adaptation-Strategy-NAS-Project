@@ -53,7 +53,7 @@ Size: Unavailable
 
 ### Model Output (`Lap_1\Iteration_1.07\03_Model_Results`)
 
-Stored locally (not hosted on GitHub due to size), with the exception of output streamflow
+Stored locally (not hosted on GitHub due to size), **with the exception of output streamflow**
 
 Size: Unavailable
 
