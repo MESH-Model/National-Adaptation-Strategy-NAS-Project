@@ -5,11 +5,13 @@
 
 ## Model Setup and Metadata
 
-**Version:** 1.5.5
+**MESH Version:** 1.5.5
 
-**Period:** 1980–2023
+**Time Period:** 1980–2023
 
 **Run Method:** Distributed Parametrization, Domain Chunking
+
+**Forcing:** CaSR 3.1
 
 This lap includes a MESH model setup for all of Canada, including transboundary basins
 

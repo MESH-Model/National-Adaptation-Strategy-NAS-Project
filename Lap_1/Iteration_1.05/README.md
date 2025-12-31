@@ -5,9 +5,11 @@
 
 ## Model Setup and Metadata
 
-**Version:** 1860_ME_ZT
+**MESH Version:** 1860_ME_ZT
 
-**Period:** 1950–2014
+**Time Period:** 1950–2014
+
+**Forcing:** CMIP6 (downscaled, not bias corrected)
 
 **Scenario:** CanESM5 Historical
 

@@ -5,11 +5,13 @@
 
 ## Model Setup and Metadata
 
-**Version:** 1.5.5
+**MESH Version:** 1.5.5
 
-**Period:** 2015–2100
+**Time Period:** 2015–2100
 
 **Run Method:** Lumped Parametrization (2.01), Domain Chunking
+
+**Forcing:** TBD
 
 **Scenario:** CanESM5 SSP5-8.5
 
