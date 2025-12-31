@@ -57,7 +57,20 @@ Size: Unavailable
 
 Stored locally (not hosted on GitHub due to size) 
 
-Size: Unavailable
+Size: 98.6 GB
+
+```
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         12/4/2025   2:33 PM    12323792969 merged_ALWSSOL_D_IG1_GRD.nc
+-a----         12/4/2025   2:19 AM    12323792969 merged_ALWSSOL_D_IG2_GRD.nc
+-a----         12/4/2025   2:34 PM    12323792969 merged_ALWSSOL_D_IG3_GRD.nc
+-a----         12/4/2025   2:18 AM    12323792969 merged_ALWSSOL_D_IG4_GRD.nc
+-a----         12/4/2025   3:11 PM    12323792958 merged_ET_D_GRD.nc
+-a----         12/4/2025   3:00 PM    12323792969 merged_LQWSSNO_D_GRD.nc
+-a----         12/4/2025   2:59 PM    12323792961 merged_RFF_D_GRD.nc
+-a----         12/4/2025   6:15 PM    12323792961 merged_SNO_D_GRD.nc
+```
 
 Forcing dataset and Model outputs can be provided upon request. Please contact the project team for access.
 

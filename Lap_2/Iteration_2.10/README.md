@@ -57,7 +57,22 @@ Size: Unavailable
 
 Stored locally (not hosted on GitHub due to size) 
 
-Size: Unavailable
+Size: 109 GB
+
+```
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         12/4/2025   2:06 AM    12323792969 merged_ALWSSOL_D_IG1_GRD.nc
+-a----         12/4/2025   2:06 AM    12323792969 merged_ALWSSOL_D_IG2_GRD.nc
+-a----         12/4/2025   2:05 AM    12323792969 merged_ALWSSOL_D_IG3_GRD.nc
+-a----         12/4/2025   2:04 AM    12323792969 merged_ALWSSOL_D_IG4_GRD.nc
+-a----         12/4/2025   2:41 PM    12323792958 merged_ET_D_GRD.nc
+-a----         12/4/2025   2:26 AM         450025 merged_LQWSSNO_D_GRD.nc
+-a----         12/4/2025   2:35 PM    12323792961 merged_RFF_D_GRD.nc
+-a----         12/4/2025   2:39 PM    12323792961 merged_SNO_D_GRD.nc
+-a----         12/4/2025   3:15 PM     2879011500 MESH_output_streamflow.csv
+-a----         12/4/2025   2:38 PM     9594836867 QO_D_GRD.nc
+```
 
 Forcing dataset and Model outputs can be provided upon request. Please contact the project team for access.
 
