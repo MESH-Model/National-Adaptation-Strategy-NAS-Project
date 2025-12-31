@@ -49,13 +49,29 @@ The model uses 7 key climate forcing variables from the **Canadian Surface Reana
 
 Stored locally (not hosted on GitHub due to size)
 
-Size: 552.9 GB
+Size: 566.2 GB
+
+```
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         4/17/2025   8:46 PM   566181074422 MESH_input_CanTrans_CaSRv2p1_1980_2018.nc
+```
 
 ### Model Output (`Lap_1\Iteration_1.01\03_Model_Results`)
 
 Stored locally (not hosted on GitHub due to size) 
 
-Size: 49.5 GB
+Size: 67.1 GB
+
+```
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        12/17/2025  12:09 PM     3958374400 merged_ALWSSOL_D_IG1_GRD.nc
+-a----        12/17/2025  12:09 PM     4287889408 merged_ALWSSOL_D_IG2_GRD.nc
+-a----        12/17/2025  11:49 AM     6162363337 merged_ALWSSOL_D_IG3_GRD.nc
+-a----        12/17/2025  12:09 PM     3440115712 merged_ALWSSOL_D_IG4_GRD.nc
+-a----        12/17/2025  12:09 PM    49285693440 merged_RFF_H_GRD.nc
+```
 
 Forcing dataset and Model outputs can be provided upon request. Please contact the project team for access.
 
