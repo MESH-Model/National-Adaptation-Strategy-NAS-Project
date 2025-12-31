@@ -57,7 +57,30 @@ Size: Unavailable
 
 Stored locally (not hosted on GitHub due to size) 
 
-Size: 51.2 GB
+Size: 55.1 GB
+
+```
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        11/18/2025   4:58 PM          40182 excluded_stations_kge.txt
+-a----        11/18/2025   4:58 PM          40182 excluded_stations_nse.txt
+-a----        11/18/2025   4:59 PM          40182 excluded_stations_pbias.txt
+-a----        11/13/2025   8:23 AM     6162363337 merged_ALWSSOL_D_IG1_GRD.nc
+-a----        11/13/2025   7:48 AM     6162363337 merged_ALWSSOL_D_IG2_GRD.nc
+-a----        11/13/2025   7:48 AM     6162363337 merged_ALWSSOL_D_IG3_GRD.nc
+-a----        11/13/2025   8:24 AM     6162363337 merged_ALWSSOL_D_IG4_GRD.nc
+-a----        11/13/2025   8:34 AM     6162363326 merged_ET_D_GRD.nc
+-a----        11/13/2025   7:51 AM     6162363337 merged_LQWSSNO_D_GRD.nc
+-a----        11/13/2025   7:51 AM     6162363329 merged_RFF_D_GRD.nc
+-a----        11/13/2025   8:31 AM     6162363329 merged_SNO_D_GRD.nc
+-a----        11/13/2025   7:47 AM         176377 MESH_output_echo_print.txt
+-a----        11/18/2025   3:11 PM     1339792617 MESH_output_streamflow.csv
+-a----        11/13/2025   7:48 AM      159989659 mesh_rte.log
+-a----        11/18/2025   4:52 PM           1745 metrics_description.txt
+-a----        11/18/2025   4:52 PM         999785 metrics_MESH_CaSRv2p1_Average_GRU_Params_MESH_1p5p5.csv
+-a----        11/13/2025   7:47 AM         586994 model_lss.log
+-a----        11/13/2025   8:12 AM     4277323963 QO_D_GRD.nc
+```
 
 Forcing dataset and Model outputs can be provided upon request. Please contact the project team for access.
 

@@ -57,7 +57,27 @@ Size: Unavailable
 
 Stored locally (not hosted on GitHub due to size) 
 
-Size: 51.9 GB
+Size: 55.8 GB
+
+```
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        11/13/2025   8:50 AM     6162371529 merged_ALWSSOL_D_IG1_GRD.nc
+-a----        11/13/2025   8:50 AM     6162371529 merged_ALWSSOL_D_IG2_GRD.nc
+-a----        11/13/2025   8:50 AM     6162371529 merged_ALWSSOL_D_IG3_GRD.nc
+-a----        11/13/2025   8:49 AM     6162371529 merged_ALWSSOL_D_IG4_GRD.nc
+-a----        11/13/2025   9:46 AM     6162371518 merged_ET_D_GRD.nc
+-a----        11/13/2025   9:14 AM     6162371529 merged_LQWSSNO_D_GRD.nc
+-a----        11/13/2025   9:12 AM     6162371521 merged_RFF_D_GRD.nc
+-a----        11/13/2025   9:15 AM     6162371521 merged_SNO_D_GRD.nc
+-a----        11/13/2025   8:15 AM         176377 MESH_output_echo_print.txt
+-a----        11/18/2025   4:08 PM     1499661581 MESH_output_streamflow.csv
+-a----        11/13/2025   8:45 AM      187498975 mesh_rte.log
+-a----        11/18/2025   4:56 PM           1745 metrics_description.txt
+-a----        11/18/2025   4:56 PM        1001381 metrics_MESH_CaSRv3p1_Average_GRU_Params_MESH_1p5p5_pr_forcast.csv
+-a----        11/13/2025   8:15 AM     4839948035 QO_D_GRD.nc
+-a----        11/13/2025   8:44 AM            336 run_mesh_lss.sh
+```
 
 Forcing dataset and Model outputs can be provided upon request. Please contact the project team for access.
 

@@ -57,7 +57,14 @@ Size: Unavailable
 
 Stored locally (not hosted on GitHub due to size) 
 
-Size: 4.13 GB
+Size: 4.44 GB
+
+```
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        11/19/2025   8:11 AM     1059880237 MESH_output_streamflow.csv
+-a----         11/2/2025   4:34 AM     3376693929 QO_D_GRD.nc
+```
 
 Forcing dataset and Model outputs can be provided upon request. Please contact the project team for access.
 
