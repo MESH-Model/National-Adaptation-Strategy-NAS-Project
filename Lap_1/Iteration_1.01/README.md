@@ -5,9 +5,11 @@
 
 ## Model Setup and Metadata
 
-**Version:** 1860_ME_ZT
+**MESH Version:** 1860_ME_ZT
 
-**Period:** 1980–2018
+**Time Period:** 1980–2018
+
+**Forcing:** CaSR 2.1
 
 This lap includes a MESH model setup for all of Canada, including transboundary basins
 
