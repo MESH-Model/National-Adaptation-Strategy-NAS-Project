@@ -6,7 +6,7 @@
 #SBATCH --time=23:00:00                     # Adjust after benchmarking
 #SBATCH --cpus-per-task=4                   # Use more CPUs for multithreaded ncks
 #SBATCH --mem=16G                           # Adjust based on chunk size and test runs
-#SBATCH --array=0-148                       # (total_subbasins / chunk_size) - 1
+#SBATCH --array=0-149                       # (total_subbasins / chunk_size) - 1
 
 # Load required module
 module load nco
@@ -15,10 +15,12 @@ module load nco
 export OMP_NUM_THREADS=$SLURM_CPUS_PER_TASK
 
 # Configuration
-input_file="remapped_casr_forcing_1979_2023.nc"
-chunk_size=520
-total_subbasins=77017
-output_dir="./subbasin_forcing_CaSRv3p1"
+input_file="/project/6102189/NAS/Forcing/remapped_merit_casr3p2_forcing.nc"
+output_dir="/project/6102189/NAS/Forcing/MERIT_chunk_casr3p2_forcing"
+chunk_size=520         # for clrh use (564)
+total_subbasins=77017  # for clrh use (84269)
+
+# Creat a directory for output files
 mkdir -p "$output_dir"
 
 # Calculate chunk range for this array task

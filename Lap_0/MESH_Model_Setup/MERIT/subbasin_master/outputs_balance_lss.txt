@@ -1,0 +1,14 @@
+SNO        D nc
+LQWSSNO	 D nc
+ALWSSOL	 D nc
+ET         D nc
+RFF        H D nc
+#RCHG      H nc
+#PRECRN	 D nc
+#PRECSNO	 D nc
+#DRAINSNO     D nc
+#OVRFLW       D nc
+#LATFLW       D nc
+#DRAINSOL     D nc
+#STGW	  D nc
+#DSTGW	  D nc
