@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en"><Esri><CreaDate>20250924</CreaDate><CreaTime>14131200</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\Rename" Date="20250924" Time="141312">Rename D:\WSC\dissolved_by_COMID.shp D:\WSC\CanTrans_MERIT_StudyDomain.shp ShapeFile</Process></lineage></DataProperties></Esri></metadata>
