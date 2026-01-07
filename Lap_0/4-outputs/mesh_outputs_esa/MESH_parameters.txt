@@ -1,3 +1,0 @@
-!> TXT (free-format) MESH configuration file.
-! RTE time-step [s].
-DTMINUSR 300.0
