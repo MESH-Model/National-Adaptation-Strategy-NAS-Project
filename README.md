@@ -67,7 +67,7 @@ This repository includes multiple configurations (based on the **Model run confi
 - Zelalem Tesemma, Environment and Climate Change Canada (zelalem.tesemma@ec.gc.ca)
 - Sujata Budhathoki, Environment and Climate Change Canada (sujata.budhathoki@ec.gc.ca)
 - Frank Seglenieks, Environment and Climate Change Canada
-- Bruce Davison,Environment and Climate Change Canada
+- Bruce Davison, Environment and Climate Change Canada
 - Riley Damen, Environment and Climate Chnage Canada
 
 ## Disclaimer
