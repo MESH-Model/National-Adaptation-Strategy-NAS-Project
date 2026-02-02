@@ -40,7 +40,7 @@ Key transboundary systems include:
   
 The domain reflects the geographical and hydrological diversity of Canada's river systems, emphasizing those of binational importance. A map of the river basins is provided below.
 
-![Canada Transboundary Basins](images/"Canada Transboundary Basins".png)  
+![Canada Transboundary Basins](images/Transboundary_Basins.png)  
 *Figure 1: Canada's river basins and transboundary systems*
 
 ---
