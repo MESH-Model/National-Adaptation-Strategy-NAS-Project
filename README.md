@@ -55,7 +55,7 @@ The domain reflects the geographical and hydrological diversity of Canada's rive
 
 ---
 
-![Canada Transboundary Basins](images/Transboundary_Basinsa.png)  
+![Canada Transboundary Basins](images/Transboundary_Basins.png)  
 *Figure 2: Canada's River Basins and Transboundary Systems*
 
 ---
