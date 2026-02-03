@@ -1,0 +1,84 @@
+Iteration,Lap,Theme,Status,Responsible,Supporting,Date,Models,Version,Run method,Period,Domains,Aggregation,Calibration,Geofabric,Routing,Landcover,Soils,Water Management,Forcing,Benchmarks,Notes
+0.00,Lap 0,MAF - Model setup ,Complete,Zelalem ,,,,,,1980 - 2018,"All of Canada, including transboundary",100 km^2,No,Merit Hydro,WATroute,NALCMS,Out of box,No,CaSR2.1,"KGE, NSE, Bias distribution for CAMEL-spat network",Calibration strategy and benchmarks should be detailed in another document
+,Lap 1,Out of box parameter MESH run,,,,,,,,,,,,,,,,,,,
+1.01,,Base case 0 - run with uncalibrated paramters,Complete,Zelalem ,,1-Sep-24,MESH,1860_ME_ZT,non-chunking,1980 - 2018,"All of Canada, including transboundary",100 km^2,No,Merit Hydro,WATroute,NALCMS,"""",No,CaSR2.1,"KGE, NSE, Bias distribution for CAMEL-spat network","Default parameter  value from CLASS 3.6 Technical documentation, MESH-setup with additional outlet"
+1.02,,Base case 0 - run with uncalibrated paramters,Complete,Zelalem & Sujata,,24-Jun-25,MESH,1860_ME_ZT,non-chunking,1980 - 2018,CamelSpat basins,100 km^2,No,Merit Hydro,WATroute,NALCMS,"""",No,CaSR2.1,"KGE, NSE, Bias distribution for CAMEL-spat network","Default parameter  value from CLASS 3.6 Technical documentation, MESH-setup with additional outlet"
+1.03,,Base case 0 - run with uncalibrated paramters,Complete,Zelalem & Sujata,,24-Jun-25,MESH,1860_ME_ZT,non-chunking,1980 - 2018,CamelSpat basins,100 km^2,No,Merit Hydro,WATroute,NALCMS,"""",No,CaSR3.1,"KGE, NSE, Bias distribution for CAMEL-spat network","Default parameter value from CLASS 3.6 Technical documentation, MESH-setup with additional outlet"
+1.04,,Intitial Climate Change Simulations - sub-areas (parameterization from iteration 0.00)-CanRCM4-WFDEI-GEM-CaPA-RCP8.5 (15 ensemble),Complete ,Sujata,,24-Jul-25,"""",1860_ME_ZT,non-chunking,1950 - 2100,Climate Change Benchmark Basins,100 km^2,No,"""",WATroute,"""","""","""",CMIP5 (downscaled and bias corrected) ,Comparison between CMIP5 and 6,"Default parameter value  from CLASS 3.6 Technical documentation, MESH-setup with additional outlet"
+1.05,,Intitial Climate Change Simulations - sub-areas (parameterization from iteration 0.00)-CanESM5 Histrorical,Complete ,Sujata,,21-Aug-25,"""",1860_ME_ZT,non-chunking,1950 - 2014,Climate Change Benchmark Basins,100 km^2,No,"""",WATroute,"""","""","""","CMIP6 (downscaled, not bias corrected)",Comparison between CMIP5 and 6,"Default parameter value from CLASS 3.6 Technical documentation, MESH-setup with additional outlet"
+1.06,,Intitial Climate Change Simulations - sub-areas (parameterization from iteration 0.00)-CanESM5 SSP 1-2.6,Complete,Sujata,,21-Aug-25,"""",1860_ME_ZT,non-chunking,2015 - 2100,Climate Change Benchmark Basins,100 km^2,No,"""",WATroute,"""","""","""","CMIP6 (downscaled, not bias corrected)",Comparison between CMIP5 and 6,"Default parameter value from CLASS 3.6 Technical documentation, MESH-setup with additional outlet"
+1.07,,Intitial Climate Change Simulations - sub-areas (parameterization from iteration 0.00)-CanESM5 SSP 2-4.5,Complete,Sujata,,21-Aug-25,"""",1860_ME_ZT,non-chunking,2015 - 2100,Climate Change Benchmark Basins,100 km^2,No,"""",WATroute,"""","""","""","CMIP6 (downscaled, not bias corrected)",Comparison between CMIP5 and 6,"Default parameter value from CLASS 3.6 Technical documentation, MESH-setup with additional outlet"
+1.08,,Intitial Climate Change Simulations - sub-areas (parameterization from iteration 0.00)-CanESM5 SSP 3-7.0,Complete,Sujata,,21-Aug-25,"""",1860_ME_ZT,non-chunking,2015 - 2100,Climate Change Benchmark Basins,100 km^2,No,"""",WATroute,"""","""","""","CMIP6 (downscaled, not bias corrected)",Comparison between CMIP5 and 6,"Default parameter value from CLASS 3.6 Technical documentation, MESH-setup with additional outlet"
+1.09,,Intitial Climate Change Simulations - sub-areas (parameterization from iteration 0.00)-CanESM5 SSP 5-8.5,Complete,Sujata,,21-Aug-25,"""",1860_ME_ZT,non-chunking,2015 - 2100,Climate Change Benchmark Basins,100 km^2,No,"""",WATroute,"""","""","""","CMIP6 (downscaled, not bias corrected)",Comparison between CMIP5 and 6,"Default parameter value from CLASS 3.6 Technical documentation, MESH-setup with additional outlet"
+,Lap 2,"Parameters estimation from available data [MODIS LAI, Soil, DD, Sdep]",,,,,,,,,,,,,,,,,,,
+2.01,,Base case 1 - MERIT - NALCMS - GSDE - Lumped parameterization-CaSRv2p1,Complete,Zelalem,,21-Aug-25,MESH,1.5.5,domain chunking,1980 - 2018,"All of Canada, including transboundary",100 km^2,No,Merit Hydro,WATroute,NALCMS,GSDE,No,CasR2.1,"KGE, NSE, Bias distribution for CAMEL-spat network",GRU parameterization: Derived GRUs average MESH parameter value are used 
+2.02,,Base case 1 - MERIT - NALCMS - GSDE - Lumped parameterization-CaSRv3p1,Complete,Zelalem,,18-Oct-25,MESH,1860_ME_ZT,non-chunking,1980 - 2010,"All of Canada, including transboundary",100 km^2,No,Merit Hydro,WATroute,NALCMS,GSDE,No,CasR3.1,"KGE, NSE, Bias distribution for CAMEL-spat network",GRU parameterization: Derived GRUs average MESH parameter value are used 
+2.03,,Base case 1 - MERIT - NALCMS - GSDE - Lumped parameterization-CaSRv3p1,Complete,Zelalem,,18-Oct-25,MESH,1.5.5,non-chunking,1980 - 2010,"All of Canada, including transboundary",100 km^2,No,Merit Hydro,WATroute,NALCMS,GSDE,No,CasR3.1,"KGE, NSE, Bias distribution for CAMEL-spat network",GRU parameterization: Derived GRUs average MESH parameter value are used 
+2.04,,Base case 1 - MERIT - NALCMS - GSDE - Lumped parameterization-CaSRv3p1,Complete,Zelalem,,20-Oct-25,MESH,1.5.5,domain chunking,1980 - 2023,"All of Canada, including transboundary",100 km^2,No,Merit Hydro,WATroute,NALCMS,GSDE,No,CasR3.1,"KGE, NSE, Bias distribution for CAMEL-spat network",GRU parameterization: Derived GRUs average MESH parameter value are used 
+2.05,,Base case 1 - MERIT - NALCMS - GSDE - Lumped parameterization-CaSRv3p1-Forecast PRE,Complete,Zelalem,,10-Nov-25,MESH,1.5.5,domain chunking,1980 - 2023,"All of Canada, including transboundary",100 km^2,No,Merit Hydro,WATroute,NALCMS,GSDE,No,CasR3.1 + Forcast Prec,"KGE, NSE, Bias distribution for CAMEL-spat network",GRU parameterization: Derived GRUs average MESH parameter value are used
+2.06,,Base case 1 - MERIT - NALCMS - GSDE - Distributed parameterization-CaSRv3p1,Complete,Zelalem,,10-Nov-25,MESH,1.5.5,domain chunking,1980 - 2023,"All of Canada, including transboundary",100 km^2,No,Merit Hydro,WATroute,NALCMS,GSDE,No,CasR3.1,"KGE, NSE, Bias distribution for CAMEL-spat network",Distributed parameterization: Derived subbasin average MESH parameter values are used 
+2.07,,Intitial Climate Change Simulations - full domain (parameterization from iteration 2.01)-CanESM5 Historical,Complete,Sujata,,14-Nov-25,"""",1.5.5,domain chunking,1950 - 2014,"All of Canada, including transboundary",100 km^2,N/A,"""",WATroute,"""","""","""","CMIP6 (downscaled, not bias corrected)","""",
+2.08,,Intitial Climate Change Simulations - full domain (parameterization from iteration 2.01)-CanESM5 SSP 1-2.6,Complete,Sujata,,17-Nov-25,"""",1.5.5,domain chunking,2015 - 2100,"All of Canada, including transboundary",100 km^2,N/A,"""",WATroute,"""","""","""","CMIP6 (downscaled, not bias corrected)","""",
+2.09,,Intitial Climate Change Simulations - full domain (parameterization from iteration 2.01)-CanESM5 SSP 2-4.5,Complete,Sujata,,10-Dec-25,"""",1.5.5,domain chunking,2015 - 2100,"All of Canada, including transboundary",100 km^2,N/A,"""",WATroute,"""","""","""","CMIP6 (downscaled, not bias corrected)","""",
+2.10,,Intitial Climate Change Simulations - full domain (parameterization from iteration 2.01)-CanESM5 SSP 3-7.0,Complete,Sujata,,17-Nov-25,"""",1.5.5,domain chunking,2015 - 2100,"All of Canada, including transboundary",100 km^2,N/A,"""",WATroute,"""","""","""","CMIP6 (downscaled, not bias corrected)","""",
+2.11,,Intitial Climate Change Simulations - full domain (parameterization from iteration 2.01)-CanESM5 SSP 5-8.5,Complete,Sujata,,3-Dec-25,"""",1.5.5,domain chunking,2015 - 2100,"All of Canada, including transboundary",100 km^2,N/A,"""",WATroute,"""","""","""","CMIP6 (downscaled, not bias corrected)","""",
+2.12,,Base case 1 - MERIT  - NALCMS - GSDE - Lumped parameterization-CaSRv3p2,Complete,Zelalem,,,MESH,1.5.5,domain chunking,1980 - 2023,"All of Canada, including transboundary",100 km^2,No,Merit Hydro,WATroute,NALCMS,GSDE,No,CasR3.1,"KGE, NSE, Bias distribution for CAMEL-spat network",GRU parameterization: Derived GRUs average MESH parameter value are used 
+2.13,,Base case 1 - MERIT  - NALCMS - GSDE - Lumped parameterization-ERA5-Land,"In progress, remapping of ERA5-Land",Zelalem,,,MESH,1.5.5,domain chunking,1980 - 2023,"All of Canada, including transboundary",100 km^2,No,Merit Hydro,WATroute,NALCMS,GSDE,No,ERA5-Land,"KGE, NSE, Bias distribution for CAMEL-spat network",GRU parameterization: Derived GRUs average MESH parameter value are used 
+2.14,,Intitial Climate Change Simulations - full domain (parameterization from iteration 2.01)-MPI-ESM1-2-LR Historical,In progress,Sujata,,,"""",1.5.5,domain chunking,1950 - 2014,"All of Canada, including transboundary",100 km^2,N/A,"""",WATroute,"""","""","""",TBD,"""",
+2.15,,Intitial Climate Change Simulations - full domain (parameterization from iteration 2.01)-CNRM-ESM2-1 Historical,In progress,Sujata,,,"""",1.5.5,domain chunking,1950 - 2014,"All of Canada, including transboundary",100 km^2,N/A,"""",WATroute,"""","""","""",TBD,"""",
+2.16,,Intitial Climate Change Simulations - full domain (parameterization from iteration 2.01)-NorESM2-MM Historical,Forcings are downloading on FIR,Sujata,,,"""",1.5.5,domain chunking,1950 - 2014,"All of Canada, including transboundary",100 km^2,N/A,"""",WATroute,"""","""","""",TBD,"""",
+,Lap 3,Explore the pros/cons of different: geofabrics /land cover / soil data /,,,,,,,,,,,,,,,,,,,
+3.01,,Base case 1 - MERIT - CAMELS-SPAT - NALCMS - GSDE - Lumped parameterization-CaSRv3p2,,Zelalem,,,"""",1.5.5,domain chunking,1980 - 2018,CamelSpat basins,100 km^2,No,Merit modified to Camelspat,WATroute,"""","""","""",CaSR 3.2,"""",
+3.02,,Base case 1 -  CLRH - NALCMS - GSDE - Lumped parameterization-CaSRv3p2,,Zelalem,,,"""",1.5.5,domain chunking,1980 - 2018,Routing Benchmark Basins,100 km^2,No,CLRH,WATroute,"""","""","""",CaSR 3.1,"""",
+3.03,,Base case 1 -  NewMERIT - NALCMS - GSDE - Lumped parameterization-CaSRv3p2,,Kasra,,,"""",1.5.5,domain chunking,1980 - 2018,,,,,,,,,,,
+3.04,,Base case 1 - MERIT - ESA - GSDE - Lumped parameterization - CaSRv3p1,Run completed ,Zelalem,,3-Dec-25,MESH,1.5.5,domain chunking,1980 - 2018,"All of Canada, including transboundary",100 km^2,No,Merit Hydro,WATroute,NALCMS,GSDE,No,CasR3.1,"KGE, NSE, Bias distribution for CAMEL-spat network",GRU parameterization: Derived GRUs average MESH parameter value are used 
+3.05,,Base case 1 - MERIT - NALCMS - SoilGrid - Lumped parameterization-CaSRv3p1,,Zelalem,,,,1.5.5,domain chunking,1980 - 2018,,,,,,,,,,,
+,,Explore the pros/cons of different routing routines,,,,,,,,,,,,,,,,,,,
+3.05,,Base case 1 -  RTERoute - CLRH - NALCMS - GSDE - Lumped parameterization-CaSRv3p2,,Zelalem,,,,1.5.5,,,,,,,,,,,,,
+3.06,,Base case 1 -  MizuRoute - CLRH - NALCMS - GSDE - Lumped parameterization-CaSRv3p2,,Zelalem,,,,1.5.5,,,,,,,,,,,,,
+3.07,,Base case 1 -  Raven - CLRH - NALCMS - GSDE - Lumped parameterization-CaSRv3p2,,Zelalem,,,,1.5.5,,,,,,,,,,,,,
+3.08,,Base case 1 -  Explore the pros/cons of land surface grid / vector modeling,,Zelalem,,,"""","""",,,Routing Benchmark Basins,,No,"""",,"""","""","""","""","""",Exploring the differnence using vector or grid based land surface 
+3.09,,Intitial Climate Change Simulations - full domain (parameterization from iteration 2.01),,Sujata,,,,,,,,,,,,,,,,,
+3.10,,Intitial Climate Change Simulations - full domain (parameterization from iteration 2.01),,Sujata,,,,,,,,,,,,,,,,,
+3.11,,Intitial Climate Change Simulations - full domain (parameterization from iteration 2.01),,Sujata,,,,,,,,,,,,,,,,,
+3.12,,Intitial Climate Change Simulations - full domain (parameterization from iteration 2.01),,Sujata,,,,,,,,,,,,,,,,,
+,Lap 4,Performing calibration ,,Zelalem,,,MESH,1.5.5,non-chunking,1980 - 2000,Selected basins based on dominant land cover,100 km^2,Yes,Merit Hydro,WATroute,NALCMS,GSDE,No,CaSR3.1,"KGE, NSE, Bias distribution for CAMEL-spat network",
+4.01,,Calibration with CAMELSpat + new calibration workflow,,Kasra,,30-Apr-26,MESH,1.5.5,,,CamelSpat basins,None,,Merit modified to Camelspat,WATroute,NALCMS,GSDE,No,CaSR3.1,,
+4.02,,Calibration over the entire domain for naturalized flows (placeholder),,Kasra,,1-Jan-26,MESH,?,,,,,,,,,,,,,
+4.03,,GRU parameterization-CaSRv3p1 (Nelson),,Tyler,,1-Mar-26,MESH,1.5.5,,,Nelson,100 km^2,,Merit Hydro,WATroute,NALCMS,GSDE,No,CaSR3.1,,
+4.04,,Re-calibration (AI approach),,,,,,,,,,,,,,,,,,,
+N/A,,Parallel work to articulate a calibration and benchmarking strategy,,Bruce and Frank,Zelalem & Sujata,,,,,,,,,,,,,,,,
+N/A,,"Parallel work to articulate a calibration, geofabric and benchmarking strategy",,Kasra,,30-Apr-26,,,,,,,,,,,,,,,
+,Lap 5,Turning on Physics / Updated Physics,,,,,,,,,,,,,,,,,,,
+5.01,,Base case 1 - GRU parameterization-CaSRv3p1 (Nelson) (Reservoir routines and Irrigation),Tyler,Tyler,,1-Aug-26,"""",1860_ME_ZT,"""","""",Climate Change Benchmark Basins,,Yes,"""",WATroute,"""","""","""","""","""",
+5.02,,Turn on water management (DZTR) - Calibrated,,,,,,,,,,,,,,,,,,,
+5.03,,Turn on irrigation,,,,,,,,,,,,,,,,,,,
+5.04,,Turn on Mountain MESH,,,,,,,,,,,,,,,,,,,
+5.05,,Turn on permafrost,,,,,,,,,,,,,,,,,,,
+5.06,,Turn on upgrades to glaciers,,,,,,,,,,,,,,,,,,,
+5.07,,Turn on blowing snow,,,,,,,,,,,,,,,,,,,
+5.08,,Turn on HDS,,,,,,,,,,,,,,,,,,,
+,,Turn on psychrometric phase partitioning,,,,,,,,,,,,,,,,,,,
+,,CLSM?,,,,,,,,,,,,,,,,,,,
+5.10,,Re-calibration / (AI approach),,,,,,,,,,,,,,,,,,,
+,Lap 6,Final Climate Change Simulations - full domain [Multiple  GCM],,,,,,,,,,,,,,,,,,,
+6.01,,Final Climate Change Simulations - full domain [Multiple  GCM],,,,,"""",1.5.5,domain chunking,1950 - 2014,"All of Canada, including transboundary",100 km^2,N/A,"""",WATroute,"""","""","""",TBD,"""",
+6.02,,Final Climate  Change Simulations - full domain  [Multiple  GCM],,,,,"""",1.5.5,domain chunking,2015 - 2100,"All of Canada, including transboundary",100 km^2,N/A,"""",WATroute,"""","""","""",TBD,"""",
+6.03,,Final Climate  Change Simulations - full domain  [Multiple  GCM],,,,,"""",1.5.5,domain chunking,2015 - 2100,"All of Canada, including transboundary",100 km^2,N/A,"""",WATroute,"""","""","""",TBD,"""",
+6.04,,Final Climate  Change Simulations - full domain  [Multiple  GCM],,,,,"""",1.5.5,domain chunking,2015 - 2100,"All of Canada, including transboundary",100 km^2,N/A,"""",WATroute,"""","""","""",TBD,"""",
+6.05,,Final Climate  Change Simulations - full domain  [Multiple  GCM],,,,,"""",1.5.5,domain chunking,2015 - 2100,"All of Canada, including transboundary",100 km^2,N/A,"""",WATroute,"""","""","""",TBD,"""",
+,,Future iterations to include:,,,,,,,,,,,,,,,,,,,
+,,Glacier Focus,,,,,,,,,,,,,,,,,,,
+,,Permafrost Focus,,,,,,,,,,,,,,,,,,,
+,,"Lancover change (e.g. forest fires, land use change)",,,,,,,,,,,,,,,,,,,
+,,Other? - possible FHIMP lap?,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,"A cumulative distribution function (CDF) plot like this is useful for tracking and analyzing 
+different model iterations: MESH runs multiple times — perhaps with:
+different forcing,
+different parameters,
+optimization steps, or
+calibration iterations —
+each run produces a distribution of performance metrics like KGE (Kling–Gupta Efficiency).",,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
