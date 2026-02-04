@@ -53,16 +53,36 @@ The NAS project utilizes a range of additional Python scripts in the preprocessi
 
 - **SoilGrids:** A finer-resolution alternative to GSDE, SoilGrids 2.0 provides 250-meter data for six soil horizons extending to a 2.0 meter depth. It includes 14 soil properties, encompassing texture and hydraulics, and is better suited for regions with greater topography and land-surface heterogeneity.
 
+- **Out-of-Box:** Iterations with this description for the soil data use a set of globally-applied soil parameters determined in a previous study. They are independent of GRU, and therefore avoid the preprocessing steps of vertical aggregation and intersect averaging to define properties for distinct landcover types.
+
 ## List of Forcing Datasets
 
 ### The Canadian Surface Reanalysis (CaSR)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean aliquet et nibh sed pretium. Quisque ligula enim, lobortis in urna non, dignissim scelerisque magna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla quam diam, accumsan sed ultrices vel, ullamcorper at sem. Phasellus vel auctor tortor. Nulla orci diam, faucibus vitae justo vitae, euismod varius ligula. Fusce maximus sem nec magna laoreet, vitae pulvinar mauris commodo. Suspendisse ligula nunc, efficitur tempor vehicula a, interdum sit amet justo.
+Runs with interest in historical simulation for model evaluation make use of the **Canadian Surface Reanalysis (CaSR)** system, which provides best-fit information for seven forcing variables: temperature, specific humidity, precipitation, wind speed, atmospheric pressure, and short- and longwave radiation. Early simulations utilize version 2.1, previously known as the Regional Deterministic Reforecast System, derived from the Canadian Precipitation Analysis (CaPA). The 10-kilometer datset is more frequently implemented in its latest forms, CaSR v3.1 and v3.2, which provide improvements to input datasets, model physics, and data assimilation.
+
+### The European Centre for Medium-Range Weather Forecasts Reanalysis (ERA5-Land)
+
+An alternative dataset used for historical forcing is the **ERA5-Land** product, which is a global tool developed by the European Centre for Medium-Range Weather Forecasts. With improved spatial and temporal resolution, the dataset is useful for hydrological support and benchmarking, and appropriate for zones without specialized regional analyses. On top of the parameters included in CaSR, it provides land-surface parameters such as evaporation, snow, albedo, and lake characteristics.
 
 ### The Coupled Model Intercomparison Project (CMIP5/6)
 
-Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vestibulum pellentesque augue lectus, sed auctor erat mattis vel. Vestibulum consequat elit quam. Nulla volutpat justo metus, eu pellentesque enim tempus in. In mi mauris, vulputate vel consequat sed, scelerisque dictum arcu. Donec pellentesque odio vitae est cursus suscipit. Nunc et quam ut velit hendrerit aliquet ut a nibh. Donec eu eleifend turpis. Vivamus facilisis consectetur urna vehicula porttitor. Integer dictum nibh nec nisl euismod pulvinar nec non ipsum.
+Climate runs considering future data make use of the Coupled Model Intercomparison Project (CMIP) protocol, specifically versions 5 and 6. The bias-corrected CMIP5 is built on the RCP8.5 climate scenario, and consists of 50 ensemble members spanning 150 years (ending in 2100). The dataset contains all seven MESH input variables packaged into a global 3-hour, 0.125° data structure, and is widely used in climate change studies.
 
-## Preprocessing Scripts
+CMIP6 is the most recent phase of the CMIP protocol. Transitioning from an RCP framework to an SSP one, the ensemble dataset provides information for multiple evolved climate scenarios, including SSP1-2.6 and SSP5-8.5. It includes both future and historical data, and improves on both temporal and spatial resolution, increasing to hourly, 0.11° intervals. Unlike CMIP5, CMIP6 is not bias-corrected, and demands additional preprocessing to address issues with leap years.
+
+## Additional Scripts
+
+The NAS project utilizes several tailored scripts to improve computational efficiency and standardize the model workflow. Refer to Figure 1 for their implementation order. Scripts are found in the directory `National-Adaptation-Strategy-NAS-Project/Scripts`, with details listed below.
+
+- `BasinAggregation` – Subbasins in the geofabric are aggregated with the largest upstream basin if they fall below the threshold area of 100 square kilometers, improving computational efficiency.
+
+- `EasymoreArrayJob` – 
+
+- `MergeRemappedFiles` – 
+
+- `PolishGRUs` – Subbasin GRU fractions are zeroed if they fall below a landcover-dependent threshold, and their ratio is redistributed among other LC types. Thresholds are listed below.
+
+
 
 ## Model Configuration Criteria
