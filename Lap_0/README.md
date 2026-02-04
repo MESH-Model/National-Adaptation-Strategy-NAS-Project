@@ -77,12 +77,18 @@ The NAS project utilizes several tailored scripts to improve computational effic
 
 - `BasinAggregation` – Subbasins in the geofabric are aggregated with the largest upstream basin if they fall below the threshold area of 100 square kilometers, improving computational efficiency.
 
-- `EasymoreArrayJob` – 
+- `EasymoreArrayJob` – Information not yet available.
 
-- `MergeRemappedFiles` – 
+- `MergeRemappedFiles` – Information not yet available.
 
 - `PolishGRUs` – Subbasin GRU fractions are zeroed if they fall below a landcover-dependent threshold, and their ratio is redistributed among other LC types. Thresholds are listed below.
 
+| Grouped Response Unit         | Minimum Fraction |
+|-------------------------------|------------------|
+| Vegetation Land Cover         | 0.05             |
+| Wetland, Barren, Urban, Water | 0.02             |
+| Glacial                       | 0.01             | 
 
+Maximization of computational efficiency is essential, as running MESH on the CTRB requires intensive calculations which take days, even in an HPC environment. Additional files, such as domain-specific scripts and the `gauge-regulation` program are included in the directory, but not yet implmented in the project. Details for these scripts are not yet available.
 
 ## Model Configuration Criteria
