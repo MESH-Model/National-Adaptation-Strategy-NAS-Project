@@ -60,20 +60,7 @@ The domain reflects the geographical and hydrological diversity of Canada's rive
 
 ---
 
-## Model Cases and Repository Structure
 
-This repository includes multiple configurations (based on the Configuration Sequencing Strategy) of the MESH hydrological model as part of the initial NAS project analysis:
-
-- **Lap_0** - Model Agnostic Framework (MAF) model setup
-  Baseline hydrological framework for establishing the national MESH domain.
-- **Lap_1** - Out-of-box parameter MESH runs on version 1860_ME_ZT
-	- **Iterations 1.01–1.03** - Uncalibrated MESH runs using CaSR v2.1 and CaSR v3.1 forcing
-	- **Iterations 1.04–1.09** - Initial climate-change simulations on the benchmark basin using CMIP6 (CanESM5)
-- **Lap_2** - Parameters estimation from available data [MODIS LAI, Soil, DD, SDep]
-	- **Iterations 2.01–2.06** - Lumped/distributed MESH runs using CaSR v2.1 and CaSR v3.1
-	- **Iterations 2.07–2.11** - Climate-change simulations for the full Canada and transboundary domain using CMIP6 (CanESM5)
-
-Iteration folders contain additional metadata and documentation, appropriate setup files, select simulation results, and references to additional files used for model setup, including preprocessing scripts and forcing data. Files exceeding the upload limit of 100 MB are stored elsewhere, and provided upon request.
 
 ## Project Team
 
