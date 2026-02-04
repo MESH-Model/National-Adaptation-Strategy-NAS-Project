@@ -14,7 +14,7 @@ The timeline shown is indicative and not to scale and reflects expected technica
 
 ---
 
-![Model Run Configuration Sequencing Strategy](Images/Configuration_Sequence.png)  
+![Model Run Configuration Sequencing Strategy](Images/Model_run_configuratione.png)  
 *Figure 1: NAS hydrological modelling lap-based project design and indicative timeline*
 
 ---
