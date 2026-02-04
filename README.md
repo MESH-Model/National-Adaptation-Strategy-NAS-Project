@@ -10,6 +10,8 @@ Project work is organized into a series of phases referred to as **Laps**, prese
 
 Lap 0 starts with detailed documentation of a range of input geospatial and atmospheric forcing inputs, which are reused in future laps to minimize the extent of large-scale data processing. Details for each Lap are provided within each subdirectory, and summarized in `Configuration_Sequence.csv`
 
+The timeline shown is indicative and not to scale and reflects expected technical dependencies between laps rather than fixed calendar commitments. Progression between laps is contingent on findings from preceding phases, including data quality, model behavior, and uncertainty characterization. As such, the lap design, scope, and timeline may be adjusted as the project progresses to accommodate emerging insights, evolving priorities, or newly identified technical requirements. This adaptive structure is intentional and supports transparency, scientific rigor, and reproducibility throughout the project development.
+
 ---
 
 ![Model Run Configuration Sequencing Strategy](Images/Configuration_Sequence.png)  
