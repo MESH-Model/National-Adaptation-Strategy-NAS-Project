@@ -11,7 +11,9 @@ Model run iterations require a discrete set of input datasets and parameters to 
 ### Geospatial Data
 
 - **Geofabric (MERIT-Hydro, CLRH, CAMELS-SPAT):** A domain-wide network of subbasin polygons which define basin connectivity, flow routing, lake/reservoir interactions, and provide a baseline for dataset remapping. Constitutes the MESH "grid". Includes stream gauging stations as fixed control points.
+
 - **Landcover Information (NALCMS, ESA WorldCover):** A raster dataset delineating landcover classifications in Canada which are separated into Grouped Response Units (GRUs), parameterized at the sub-grid level. Grid cells include a tile set reflecting the ratio of GRUs within the subbasin, subject to unique land-surface calculations. Landcover has important effects on evapotranspiration, flow rate, and snow accumulation.
+
 - **Soil Information (GSDE, SoilGrids):** Domain-wide raster information including horizon-specific parameters related to soil moisture and type, governing infiltration, baseflow, and runoff dynamics. Aggregated vertically into established depth thresholds, enabling comparability and minimizing dilution of topsoil properties. Assigned to GRUs based on the intersecting average.
 
 ### Forcing Data
@@ -35,7 +37,7 @@ The NAS project utilizes a range of additional Python scripts in the preprocessi
 
 ### Geofabrics
 
-- **Multi-Error-Removed Improved Terrain Hydro (MERIT-Hydro):** A high-resolution global hydrology dataset developed at the University of Tokyo which corrects common DEM errors. Global availability makes the dataset well-suited for cross-boundary simulations, but less appropriate at localized scales. 
+- **Multi-Error-Removed Improved Terrain Hydro (MERIT-Hydro):** A high-resolution global hydrology dataset developed at the University of Tokyo which corrects common DEM errors. Global availability makes the dataset well-suited for cross-boundary simulations, but less appropriate at localized scales.
 
 - **Canadian Lake River Hydrofabric (CLRH):** Derived at the University of Waterloo from MERIT-Hydro, the CLRH provides high-quality data at the national scale, tailored for Canadian hydrology and linked with operational gauges from the Water Survey of Canada (WSC). Integration of local datasets and conventions ensure it provides top-quality data, emphasizing Lake-River interactions and connectivity.
 
@@ -47,7 +49,7 @@ The NAS project utilizes a range of additional Python scripts in the preprocessi
 
 - **European Space Agency World Land Cover Product (ESA Worldcover):** Global land cover information, distributed into 11 unique types. Suited for comprehensive, transboundary applications, the 10-meter dataset includes satellite-derived classifications such as grassland, herbaceous wetland, and needleleaf forest.
 
-## Soil Data
+### Soil Data
 
 - **Global Soil Dataset for Earth System Models (GSDE):** A 30-arc-second soil information dataset with eight layers extending to a depth of 2.3 meters. Includes information on soil texture, depth, and hydraulic properties such as conductivity. Parameterized within each GRU to improve computational efficiency.
 
@@ -91,9 +93,11 @@ The NAS project utilizes several tailored scripts to improve computational effic
 
 Maximization of computational efficiency is essential, as running MESH on the CTRB requires intensive calculations which take days, even in an HPC environment. Additional files, such as domain-specific scripts and the `gauge-regulation` program are included in the directory, but not yet implmented in the project. Details for these scripts are not yet available.
 
-## Model Configuration Criteria
+## MESH Configuration Parameters
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis nibh id erat eleifend sagittis. Phasellus accumsan maximus risus, quis pretium urna laoreet id. Nam id elit eu neque tincidunt pellentesque. Cras vel condimentum nunc. Morbi est quam, sagittis sed dictum a, vestibulum eu diam. Fusce commodo tristique lorem vitae luctus. Cras vel purus feugiat, imperdiet massa id, commodo dui. Donec euismod, mi ut convallis lobortis, ante eros cursus enim, eget interdum augue nulla vel lacus (WIP).
+The **Canadian Land Surface Scheme (CLASS)** is a key component of MESH which simulates atmospheric energy fluxes at the grid and sub-grid levels. It depends on a range of input parameters associated with a respective GRU, including vegetation properties, roughness length, and surface albedo. Along with soil properties, the surface parameters are predefined at the configuration level and remain static during the run. CLASS considers vegetation characteristics as time-invariant, and accounts for seasonality using the Leaf Area Index (LAI).
+
+Parameters are defined in the `02_Model_Setup` subfolder of each iteration directory. Details on additional input options, including streamflow, hydrology, and control flags can be found on the [MESH User Wiki](https://mesh-model.atlassian.net/wiki/spaces/USER/overview?mode=global).
 
 ## Project Team
 
