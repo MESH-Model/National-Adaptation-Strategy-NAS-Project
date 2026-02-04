@@ -12,7 +12,7 @@ Lap 0 starts with detailed documentation of a range of input geospatial and atmo
 
 ---
 
-![Model Run Configuration Sequencing Strategy](images/Configuration_Sequence.png)  
+![Model Run Configuration Sequencing Strategy](Images/Configuration_Sequence.png)  
 *Figure 1: The Model Run Configuration Sequence, Presented in 7 Laps*
 
 ---
@@ -55,7 +55,7 @@ The domain reflects the geographical and hydrological diversity of Canada's rive
 
 ---
 
-![Canada Transboundary Basins](images/Transboundary_Basins.png)  
+![Canada Transboundary Basins](Images/Transboundary_Basins.png)  
 *Figure 2: Canada's River Basins and Transboundary Systems*
 
 ---
