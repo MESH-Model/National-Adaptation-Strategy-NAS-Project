@@ -49,15 +49,19 @@ The NAS project utilizes a range of additional Python scripts in the preprocessi
 
 ## Soil Data
 
-- **Global Soil Dataset for Earth System Models (GSDE):**
+- **Global Soil Dataset for Earth System Models (GSDE):** A 30-arc-second soil information dataset with eight layers extending to a depth of 2.3 meters. Includes information on soil texture, depth, and hydraulic properties such as conductivity. Parameterized within each GRU to improve computational efficiency.
 
-- **SoilGrids:**
+- **SoilGrids:** A finer-resolution alternative to GSDE, SoilGrids 2.0 provides 250-meter data for six soil horizons extending to a 2.0 meter depth. It includes 14 soil properties, encompassing texture and hydraulics, and is better suited for regions with greater topography and land-surface heterogeneity.
 
 ## List of Forcing Datasets
 
-### Canadian Surface Reanalysis (CaSR)
+### The Canadian Surface Reanalysis (CaSR)
 
-### Coupled Model Intercomparison Project (CMIP)
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean aliquet et nibh sed pretium. Quisque ligula enim, lobortis in urna non, dignissim scelerisque magna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla quam diam, accumsan sed ultrices vel, ullamcorper at sem. Phasellus vel auctor tortor. Nulla orci diam, faucibus vitae justo vitae, euismod varius ligula. Fusce maximus sem nec magna laoreet, vitae pulvinar mauris commodo. Suspendisse ligula nunc, efficitur tempor vehicula a, interdum sit amet justo.
+
+### The Coupled Model Intercomparison Project (CMIP5/6)
+
+Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vestibulum pellentesque augue lectus, sed auctor erat mattis vel. Vestibulum consequat elit quam. Nulla volutpat justo metus, eu pellentesque enim tempus in. In mi mauris, vulputate vel consequat sed, scelerisque dictum arcu. Donec pellentesque odio vitae est cursus suscipit. Nunc et quam ut velit hendrerit aliquet ut a nibh. Donec eu eleifend turpis. Vivamus facilisis consectetur urna vehicula porttitor. Integer dictum nibh nec nisl euismod pulvinar nec non ipsum.
 
 ## Preprocessing Scripts
 
