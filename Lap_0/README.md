@@ -59,19 +59,19 @@ The NAS project utilizes a range of additional Python scripts in the preprocessi
 
 ## List of Forcing Datasets
 
-### The Canadian Surface Reanalysis (CaSR)
+### Historic Runs – The Canadian Surface Reanalysis (CaSR)
 
 Runs with interest in historical simulation for model evaluation make use of the **Canadian Surface Reanalysis (CaSR)** system, which provides best-fit information for seven forcing variables: temperature, specific humidity, precipitation, wind speed, atmospheric pressure, and short- and longwave radiation. Early simulations utilize version 2.1, previously known as the Regional Deterministic Reforecast System, derived from the Canadian Precipitation Analysis (CaPA). The 10-kilometer datset is more frequently implemented in its latest forms, CaSR v3.1 and v3.2, which provide improvements to input datasets, model physics, and data assimilation.
 
-### The European Centre for Medium-Range Weather Forecasts Reanalysis (ERA5-Land)
+### Historic Runs – The European Centre for Medium-Range Weather Forecasts Reanalysis (ERA5-Land)
 
 An alternative dataset used for historical forcing is the **ERA5-Land** product, which is a global tool developed by the European Centre for Medium-Range Weather Forecasts. With improved spatial and temporal resolution, the dataset is useful for hydrological support and benchmarking, and appropriate for zones without specialized regional analyses. On top of the parameters included in CaSR, it provides land-surface parameters such as evaporation, snow, albedo, and lake characteristics.
 
-### The Coupled Model Intercomparison Project (CMIP5/6)
+### Future Runs – The Coupled Model Intercomparison Project (CMIP5/6)
 
-Climate runs considering future data make use of the Coupled Model Intercomparison Project (CMIP) protocol, specifically versions 5 and 6. The bias-corrected CMIP5 is built on the RCP8.5 climate scenario, and consists of 50 ensemble members spanning 150 years (ending in 2100). The dataset contains all seven MESH input variables packaged into a global 3-hour, 0.125° data structure, and is widely used in climate change studies.
+Climate runs considering future data make use of the Coupled Model Intercomparison Project (CMIP) protocol. Within CMIP5, the bias-corrected CanRCM4-WFDEI-GEM-CaPA (CanRCM4-WGC) dataset is built on the RCP8.5 climate scenario. It consists of 15 ensemble members spanning 150 years (ending in 2100). The dataset also contains all seven MESH input variables packaged into a global 3-hour, 0.125° data structure, and is widely applied in climate change studies. CMIP as a project includes multiple atmospheric models, most of which do not meet the necessary requirements to run MESH in the study.
 
-CMIP6 is the most recent phase of the CMIP protocol. Transitioning from an RCP framework to an SSP one, the ensemble dataset provides information for multiple evolved climate scenarios, including SSP1-2.6 and SSP5-8.5. It includes both future and historical data, and improves on both temporal and spatial resolution, increasing to hourly, 0.11° intervals. Unlike CMIP5, CMIP6 is not bias-corrected, and demands additional preprocessing to address issues with leap years.
+CMIP6 is the most recent phase of the CMIP protocol. Transitioning from an RCP framework to an SSP one, the study selects the Ouranos CRCM5 ensemble dataset within CMIP6. In contrast to CMIP5, it provides information for a range of emission scenarios between SSP1-2.6 and SSP5-8.5. Moreover, on top of including both future and historical data, it improves resolution, which reaches hourly, 0.11° intervals. Two challenges with use of the improved CRCM5-CMIP6 are its lack of availability in a bias-correct format, and the additional preprocessing required to address issues related to leap years.
 
 ## Additional Scripts
 
