@@ -2,7 +2,7 @@
 ---
 ## National Adaptation Strategy (NAS) – Hydrological Modeling
 
-This repository contains the hydrological modeling setup and metadata for the **National Adaptation Strategy (NAS)** initiative led by **Environment and Climate Change Canada (ECCC)**. The project aims to support climate resilience and evidence-based adaptation by generating large-scale hydroclimate data and modeling future water availability across Canada's Transboundary River Basins (CTRB).
+This repository contains the hydrological modeling setup and metadata for the **National Adaptation Strategy (NAS) Project** initiative led by **Environment and Climate Change Canada (ECCC)**. The project aims to support climate resilience and evidence-based adaptation by generating large-scale hydroclimate data and modeling future water availability across Canada's Transboundary River Basins (CTRB).
 
 It utilizes the **Modélisation Environnementale Communautaire-Surface & Hydrology (MESH)** hydrological model, a powerful framework which simulates key surface and cold-region processes at regional and continental scales. Key simulated processes within MESH include streamflow, soil moisture-runoff dynamics, evapotranspiration, and snow accumulation. Results form the foundation for assessing future climate change impacts on water resources in CTRB. 
 
@@ -80,8 +80,8 @@ Iteration folders contain additional metadata and documentation, appropriate set
 - Zelalem Tesemma, Environment and Climate Change Canada (zelalem.tesemma@ec.gc.ca)
 - Sujata Budhathoki, Environment and Climate Change Canada (sujata.budhathoki@ec.gc.ca)
 - Riley Damen, Environment and Climate Change Canada (riley.damen@ec.gc.ca)
-- Frank Seglenieks, Environment and Climate Change Canada
-- Bruce Davison, Environment and Climate Change Canada
+- Frank Seglenieks, Environment and Climate Change Canada (frank.seglenieks@ec.gc.ca)
+- Bruce Davison, Environment and Climate Change Canada (bruce.davison@ec.gc.ca)
 
 ## Disclaimer
 This is an active research repository. Model configurations, parameters, and outputs are subject to change as improvements are made. Please contact the project team before using this material for publications or decision-making applications.
