@@ -92,3 +92,16 @@ The NAS project utilizes several tailored scripts to improve computational effic
 Maximization of computational efficiency is essential, as running MESH on the CTRB requires intensive calculations which take days, even in an HPC environment. Additional files, such as domain-specific scripts and the `gauge-regulation` program are included in the directory, but not yet implmented in the project. Details for these scripts are not yet available.
 
 ## Model Configuration Criteria
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis nibh id erat eleifend sagittis. Phasellus accumsan maximus risus, quis pretium urna laoreet id. Nam id elit eu neque tincidunt pellentesque. Cras vel condimentum nunc. Morbi est quam, sagittis sed dictum a, vestibulum eu diam. Fusce commodo tristique lorem vitae luctus. Cras vel purus feugiat, imperdiet massa id, commodo dui. Donec euismod, mi ut convallis lobortis, ante eros cursus enim, eget interdum augue nulla vel lacus (WIP).
+
+## Project Team
+
+- Zelalem Tesemma, Environment and Climate Change Canada (zelalem.tesemma@ec.gc.ca)
+- Sujata Budhathoki, Environment and Climate Change Canada (sujata.budhathoki@ec.gc.ca)
+- Riley Damen, Environment and Climate Change Canada (riley.damen@ec.gc.ca)
+- Frank Seglenieks, Environment and Climate Change Canada
+- Bruce Davison, Environment and Climate Change Canada
+
+## Disclaimer
+This is an active research repository. Model configurations, parameters, and outputs are subject to change as improvements are made. Please contact the project team before using this material for publications or decision-making applications.
