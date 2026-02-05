@@ -12,7 +12,7 @@ On top of comparing additional input datasets, future runs focus on parameteriza
 
 ## Datasets Used
 
-Lap 1 consists of 9 iterations which evolve in a stepwise manner. Initial runs of Iterations 1.01 to 1.09 were completed between September 24, 2024 and August 21, 2025. Details about each iteration are available their respective subdirectories. Refer to Lap 0 for details on individual datasets, which are summarized in the table below.
+Lap 1 consists of 9 iterations which evolve in a stepwise manner. Initial runs of Iterations 1.01 to 1.09 were completed between September 24, 2024 and August 21, 2025. Refer to Lap 0 for details on individual datasets, which are summarized in the table below.
 
 | Iteration | Geofabric   | Landcover | Soils      | Forcing   | Scenario | MESH Version | Period   |
 |-----------|-------------|-----------|------------|-----------|----------|--------------|----------|
@@ -26,5 +26,38 @@ Lap 1 consists of 9 iterations which evolve in a stepwise manner. Initial runs o
 | 1.08      | Benchmark   | NALCMS    | Out-of-Box | CMIP6     | SSP3-7.0 | 1860_ME_ZT   | Future   |
 | 1.09      | Benchmark   | NALCMS    | Out-of-Box | CMIP6     | SSP5-8.5 | 1860_ME_ZT   | Future   |
 
+## Performance Metrics
+
+Kling-Gupta Efficiency (KGE) and Nash-Sutcliffe Efficiency (NSE) are the primary performance indicators used to evaluate the uncalibrated model results against observational data.
+
+$KGE=1-\sqrt{\left(r-1\right)^2+\left(\frac{\mu_s}{\mu_o}-1\right)^2+\left(\frac{\sigma_s}{\sigma_o}-1\right)^2}\qquad NSE=1-\frac{\Sigma_{t=1}^T\left(Q_o^t-Q_m^t\right)^2}{\Sigma_{t=1}^T\left(Q_o^t-\bar{Q_o}\right)^2}$
+
 ## Key Observations
 
+### Historical Runs
+
+Diagnostic analysis of water balance components identified issues related to the reprojection of climate forcing data. Artefacts in the remapped fields were created in the northwest corner of the CTRB, resultant of spatial discontinuities within the authalic projection. The EASYMORE remapping tool caused the discrepancies, which were resolved through a reduction in model domain.
+
+Expected seasonal and geographic patterns were observed in generated streamflow, such as the spring freshet and orographic enhancement. Additional observations supporting preliminary model plausibility include a peak difference between snowmelt and rainfall-dominated regions, alignment of soil moisture with evaptranspiration, and moderate skill levels for KGE and NSE. Timing and variation of streamflow are captured by the model, but heterogeneity of efficiency values point to a sensitivity to subbasin characteristics. Representative stations (such as LIARD RIVER NEAR THE MOUTH) with higher KGE and NSE values will be implemented as benchmarks for future runs.
+
+### Future Runs
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent blandit magna quis fringilla convallis. Integer elementum tristique est eget tempor. Pellentesque semper iaculis lectus, nec venenatis arcu interdum at. Pellentesque dolor elit, placerat at sollicitudin vitae, venenatis in quam. Integer convallis blandit pretium. Vivamus blandit luctus erat vitae porttitor. Donec porttitor arcu at tellus suscipit fringilla. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+---
+
+![Canada Transboundary Basins](Images/Merit_Basins_CTRB.png)  
+*Figure 2: Canada's River Basins and Transboundary Systems with MERIT-Hydro Geofabric (before and after Aggregation)*
+
+---
+
+## Project Team
+
+- Zelalem Tesemma, Environment and Climate Change Canada (zelalem.tesemma@ec.gc.ca)
+- Sujata Budhathoki, Environment and Climate Change Canada (sujata.budhathoki@ec.gc.ca)
+- Riley Damen, Environment and Climate Change Canada (riley.damen@ec.gc.ca)
+- Frank Seglenieks, Environment and Climate Change Canada (frank.seglenieks@ec.gc.ca)
+- Bruce Davison, Environment and Climate Change Canada (bruce.davison@ec.gc.ca)
+
+## Disclaimer
+This is an active research repository. Model configurations, parameters, and outputs are subject to change as improvements are made. Please contact the project team before using this material for publications or decision-making applications.
