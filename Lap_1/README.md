@@ -32,17 +32,21 @@ Kling-Gupta Efficiency (KGE) and Nash-Sutcliffe Efficiency (NSE) are the primary
 
 $KGE=1-\sqrt{\left(r-1\right)^2+\left(\frac{\mu_s}{\mu_o}-1\right)^2+\left(\frac{\sigma_s}{\sigma_o}-1\right)^2}\qquad NSE=1-\frac{\Sigma_{t=1}^T\left(Q_o^t-Q_m^t\right)^2}{\Sigma_{t=1}^T\left(Q_o^t-\bar{Q_o}\right)^2}$
 
-## Key Observations
+## Notable Observations
 
 ### Historical Runs
 
 Diagnostic analysis of water balance components identified issues related to the reprojection of climate forcing data. Artefacts in the remapped fields were created in the northwest corner of the CTRB, resultant of spatial discontinuities within the authalic projection. The EASYMORE remapping tool caused the discrepancies, which were resolved through a reduction in model domain.
 
-Expected seasonal and geographic patterns were observed in generated streamflow, such as the spring freshet and orographic enhancement. Additional observations supporting preliminary model plausibility include a peak difference between snowmelt and rainfall-dominated regions, alignment of soil moisture with evaptranspiration, and moderate skill levels for KGE and NSE. Timing and variation of streamflow are captured by the model, but heterogeneity of efficiency values point to a sensitivity to subbasin characteristics. Representative stations (such as LIARD RIVER NEAR THE MOUTH) with higher KGE and NSE values will be implemented as benchmarks for future runs.
+Expected seasonal and geographic patterns were observed in generated streamflow, such as the spring freshet and orographic enhancement. Additional observations supporting preliminary model plausibility include a peak difference between snowmelt and rainfall-dominated regions, alignment of soil moisture with evaptranspiration, and moderate levels for KGE and NSE. Timing and variation of streamflow are captured by the model, but heterogeneity of efficiency values point to a sensitivity to subbasin characteristics. Representative stations (such as LIARD RIVER NEAR THE MOUTH) with higher KGE and NSE values are implemented as benchmarks for future runs.
 
 ### Future Runs
 
-Climate change simulations were performed on select Benchmark Basins using CMIP5 and 6, where their responses were evaluated over a range of RCP and SSP emission scenarios. Running the model on historical data generates the correct seasonal structure, allowing confidence in patterns observed when comparing the data with future SSPs. [MORE HERE]
+Climate change simulations were performed on select Benchmark Basins using CMIP5 and 6, where their responses were evaluated over a range of RCP and SSP emission scenarios. The model was first run on historical data, with the purpose of verifying baseline plausibility, inspiring confidence in future scenario observations. Some discrepancies were observed, which are later used to target calibration and enhance representation for specific basins.
+
+Initial iterations using CMIP5 suggest a backward movement of freshet timing, elevated peak magnitudes, and diminishment of late-summer flows, especially in snow-dominated basins. Similar observations are made with CMIP6 forcing, albeit more sensitive and pronounced. Generally, basins in rainier regions exhibit more gradual changes. Figure 1 presents results from Iterations 1.05 and 1.09 in select benchmark basins, with distinction between historical (yellow), modern (violet), and future (red) datasets.
+
+Analysis of water balance variables identified greater 
 
 ---
 
