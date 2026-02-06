@@ -48,7 +48,7 @@ Ten basins were subset from the aggregated MERIT-Hydro dataset as benchmarks for
 |----------|----------|------------------------------------------------------------------------|
 | WSC      | 01AK010  | SAINT JOHN RIVER AT MACTAQUAC GENERATING STATION                       |
 | WSC      | 02GB001  | GRAND RIVER AT BRANTFORD                                               |
-| WSC      | 03KC004  | MELEZES (RIVER AUX) A 7,6 KM EN AMONT DE LA CONFLUENCE AVEC LA KOKSOAK |
+| WSC      | 03KC004  | MELEZES (RIVER AUX) À 7,6 KM EN AMONT DE LA CONFLUENCE AVEC LA KOKSOAK |
 | WSC      | 05AD007  | OLDMAN RIVER NEAR LETHBRIDGE                                           |
 | WSC      | 05AE027  | ST MARY RIVER AT INTERNATIONAL BOUNDARY                                |
 | WSC      | 05BB001  | BOW RIVER AT BANFF                                                     |
@@ -75,7 +75,7 @@ Initial iterations using CMIP5 suggest a backward movement of freshet timing, el
 
 ---
 
-![Provisional Benchmark Basin Projected Hydrology](../Images/Lap1_Streamflow_Climatology_Provisional.png)  
+![Provisional Benchmark Basin Projected Hydrology](../Images/Lap1_Provisional_Hydrology.png) 
 *Figure 1: Projected Hydrology Across Select Benchmark Basins Using CMIP6 CanESM5 Forcing (Provisional)*
 
 ---
