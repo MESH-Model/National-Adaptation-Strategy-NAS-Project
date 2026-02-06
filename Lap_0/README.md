@@ -104,8 +104,8 @@ Parameters are defined in the `02_Model_Setup` subfolder of each iteration direc
 - Zelalem Tesemma, Environment and Climate Change Canada (zelalem.tesemma@ec.gc.ca)
 - Sujata Budhathoki, Environment and Climate Change Canada (sujata.budhathoki@ec.gc.ca)
 - Riley Damen, Environment and Climate Change Canada (riley.damen@ec.gc.ca)
-- Frank Seglenieks, Environment and Climate Change Canada
-- Bruce Davison, Environment and Climate Change Canada
+- Frank Seglenieks, Environment and Climate Change Canada (frank.seglenieks@ec.gc.ca)
+- Bruce Davison, Environment and Climate Change Canada (bruce.davison@ec.gc.ca)
 
 ## Disclaimer
 This is an active research repository. Model configurations, parameters, and outputs are subject to change as improvements are made. Please contact the project team before using this material for publications or decision-making applications.
