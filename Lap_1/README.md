@@ -42,12 +42,12 @@ Expected seasonal and geographic patterns were observed in generated streamflow,
 
 ### Future Runs
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent blandit magna quis fringilla convallis. Integer elementum tristique est eget tempor. Pellentesque semper iaculis lectus, nec venenatis arcu interdum at. Pellentesque dolor elit, placerat at sollicitudin vitae, venenatis in quam. Integer convallis blandit pretium. Vivamus blandit luctus erat vitae porttitor. Donec porttitor arcu at tellus suscipit fringilla. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Climate change simulations were performed on select Benchmark Basins using CMIP5 and 6, where their responses were evaluated over a range of RCP and SSP emission scenarios. Running the model on historical data generates the correct seasonal structure, allowing confidence in patterns observed when comparing the data with future SSPs. [MORE HERE]
 
 ---
 
-![Canada Transboundary Basins](Images/Merit_Basins_CTRB.png)  
-*Figure 2: Canada's River Basins and Transboundary Systems with MERIT-Hydro Geofabric (before and after Aggregation)*
+![Canada Transboundary Basins](../Images/Lap1_Streamflow_Climatology.png)  
+*Figure 1: Streamflow Climatology Across Select Benchmark Basins*
 
 ---
 
