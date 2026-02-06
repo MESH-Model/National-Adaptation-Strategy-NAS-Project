@@ -12,8 +12,11 @@ On top of comparing additional input datasets, future runs focus on parameteriza
 
 ## Datasets Used
 
-Lap 1 consists of 9 iterations which evolve in a stepwise manner. Initial runs of Iterations 1.01 to 1.09 were completed between September 24, 2024 and August 21, 2025. Refer to Lap 0 for details on individual datasets, which are summarized in the table below.
+Lap 1 consists of 9 iterations which evolve in a stepwise manner. Initial runs of Iterations 1.01 to 1.09 were completed between September 24, 2024 and August 21, 2025. Refer to Lap 0 for details on individual datasets, which are summarized in Table 1.
 
+---
+
+*Table 1: Lap 1 Iteration Dataset Details*
 | Iteration | Geofabric   | Landcover | Soils      | Forcing   | Scenario | MESH Version | Period   |
 |-----------|-------------|-----------|------------|-----------|----------|--------------|----------|
 | 1.01      | MERIT-Hydro | NALCMS    | Out-of-Box | CaSR v2.1 | N/A      | 1860_ME_ZT   | Historic |
@@ -26,13 +29,37 @@ Lap 1 consists of 9 iterations which evolve in a stepwise manner. Initial runs o
 | 1.08      | Benchmark   | NALCMS    | Out-of-Box | CMIP6     | SSP3-7.0 | 1860_ME_ZT   | Future   |
 | 1.09      | Benchmark   | NALCMS    | Out-of-Box | CMIP6     | SSP5-8.5 | 1860_ME_ZT   | Future   |
 
+---
+
 ## Performance Metrics
 
 Kling-Gupta Efficiency (KGE) and Nash-Sutcliffe Efficiency (NSE) are the primary performance indicators used to evaluate the uncalibrated model results against observational data.
 
 $KGE=1-\sqrt{\left(r-1\right)^2+\left(\frac{\mu_s}{\mu_o}-1\right)^2+\left(\frac{\sigma_s}{\sigma_o}-1\right)^2}\qquad NSE=1-\frac{\Sigma_{t=1}^T\left(Q_o^t-Q_m^t\right)^2}{\Sigma_{t=1}^T\left(Q_o^t-\bar{Q_o}\right)^2}$
 
-## Notable Observations
+## Benchmark Basins
+
+Ten basins were subset from the aggregated MERIT-Hydro dataset as benchmarks for future climate scenarios, listed in Table 2.
+
+---
+
+*Table 2: Ten Selected Benchmark Basins in the CTRB*
+| Operator | Number   | Station Name                                                           |
+|----------|----------|------------------------------------------------------------------------|
+| WSC      | 01AK010  | SAINT JOHN RIVER AT MACTAQUAC GENERATING STATION                       |
+| WSC      | 02GB001  | GRAND RIVER AT BRANTFORD                                               |
+| WSC      | 03KC004  | MELEZES (RIVER AUX) A 7,6 KM EN AMONT DE LA CONFLUENCE AVEC LA KOKSOAK |
+| WSC      | 05AD007  | OLDMAN RIVER NEAR LETHBRIDGE                                           |
+| WSC      | 05AE027  | ST MARY RIVER AT INTERNATIONAL BOUNDARY                                |
+| WSC      | 05BB001  | BOW RIVER AT BANFF                                                     |
+| WSC      | 070B001  | HAY RIVER NEAR HAY RIVER                                               |
+| WSC      | 10LC017  | HAVIKPAK CREEK NEAR INUVIK                                             |
+| WSC      | 11AA031  | MILK RIVER AT EASTERN CROSSING OF INTERNATIONAL BOUNDARY               |
+| USGS     | 06174500 | MILK RIVER AT NASHUA MT                                                |
+
+---
+
+## Observations Summary
 
 ### Historical Runs
 
@@ -48,8 +75,8 @@ Initial iterations using CMIP5 suggest a backward movement of freshet timing, el
 
 ---
 
-![Canada Transboundary Basins](../Images/Lap1_Streamflow_Climatology.png)  
-*Figure 1: Streamflow Climatology Across Select Benchmark Basins*
+![Provisional Benchmark Basin Projected Hydrology](../Images/Lap1_Streamflow_Climatology_Provisional.png)  
+*Figure 1: Projected Hydrology Across Select Benchmark Basins Using CMIP6 CanESM5 Forcing (Provisional)*
 
 ---
 
