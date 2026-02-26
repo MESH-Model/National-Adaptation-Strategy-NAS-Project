@@ -46,16 +46,16 @@ Ten basins were subset from the aggregated MERIT-Hydro dataset as benchmarks for
 *Table 2: Ten Selected Benchmark Basins in the CTRB*
 | Operator | Number   | Station Name                                                           |
 |----------|----------|------------------------------------------------------------------------|
-| WSC      | 01AK010  | SAINT JOHN RIVER AT MACTAQUAC GENERATING STATION                       |
-| WSC      | 02GB001  | GRAND RIVER AT BRANTFORD                                               |
-| WSC      | 03KC004  | MELEZES (RIVER AUX) À 7,6 KM EN AMONT DE LA CONFLUENCE AVEC LA KOKSOAK |
-| WSC      | 05AD007  | OLDMAN RIVER NEAR LETHBRIDGE                                           |
-| WSC      | 05AE027  | ST MARY RIVER AT INTERNATIONAL BOUNDARY                                |
-| WSC      | 05BB001  | BOW RIVER AT BANFF                                                     |
-| WSC      | 070B001  | HAY RIVER NEAR HAY RIVER                                               |
-| WSC      | 10LC017  | HAVIKPAK CREEK NEAR INUVIK                                             |
-| WSC      | 11AA031  | MILK RIVER AT EASTERN CROSSING OF INTERNATIONAL BOUNDARY               |
-| USGS     | 06174500 | MILK RIVER AT NASHUA MT                                                |
+| WSC      | 01AK010  | Saint John River at Mactaquac Generating Station                       |
+| WSC      | 02GB001  | Grand River at Brantford                                               |
+| WSC      | 03KC004  | Melezes (river aux) à 7,6 km en amont de la confluence avec la Koksoak |
+| WSC      | 05AD007  | Oldman River Near Lethbridge                                           |
+| WSC      | 05AE027  | St Mary River at International Boundary                                |
+| WSC      | 05BB001  | Bow River at Banff                                                     |
+| WSC      | 070B001  | Hay River Near Hay River                                               |
+| WSC      | 10LC017  | Havikpak Creek Near Inuvik                                             |
+| WSC      | 11AA031  | Milk River at Eastern Crossing of International Boundary               |
+| USGS     | 06174500 | Milk River at Nashua MT                                                |
 
 ---
 
