@@ -45,12 +45,12 @@ $KGE=1-\sqrt{\left(r-1\right)^2+\left(\frac{\mu_s}{\mu_o}-1\right)^2+\left(\frac
 
 ### Lumped Parameterization
 
-A computationally efficient approach which assigns each landcover class with a set of soil properties averaged across its domain, forming a GRU. Parameters are then applied to watersheds at a sub-grid level through evaluating intersection of the polygon with distinct landcover types. Hydrological properties are then averaged, while land-surface calculations are performed for each GRU within a particular subbasin.
+A computationally efficient approach which assigns each landcover class with a set of soil properties averaged across its domain, forming a GRU. Parameters are then applied to watersheds at a sub-grid level through evaluating intersection of the polygon with distinct landcover types. Routing properties are then averaged, while land-surface calculations are performed for each GRU within a particular subbasin.
 and performing distinct surface scheme calculations.
 
 ### Distributed Parameterization
 
-More intensive but precise, distributed parameterization 
+More intensive but precise, distributed parameterization involves extraction of hydrologic parameters directly within a subbasin, instead of through enclosed GRUs. Soil properties are averaged within each tile instead of across GRUs, ensuring parameters more closely represent the local environment.
 
 ## Observations Summary
 
