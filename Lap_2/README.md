@@ -2,7 +2,7 @@
 
 ---
 
-## Lap Overview and Objectives [Outdated]
+## Lap Overview and Objectives
 
 Lap 2 advances the project timeline by updating core components and implementing methods for parameterization. It runs on a newer version of MESH (1.5.5), and replaces blanket, Out-of-Box soil properties with a geospatial dataset. The inclusion of GSDE enables lumped parameterization through Grouped Response Units (GRU), setting grid and sub-grid parameters uniformly based on landcover type. Later iterations experiment with distributed parameterization, instead averaging hydrologic properties within subbasin geometry.
 
