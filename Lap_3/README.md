@@ -22,11 +22,11 @@ Lap 3 consists of 13 iterations which evolve in a stepwise manner. Initial runs 
 | 3.05      | MERIT-HYDRO | NALCMS    | SoilGrid | CaSR v3.2       | N/A      | 1.5.5        | Historic |
 | 3.06      | MizuRoute   | NALCMS    | GSDE     | CaSR v3.2       | N/A      | 1.5.5        | Historic |
 | 3.07      | Raven       | NALCMS    | GSDE     | CaSR v3.2       | N/A      | 1.5.5        | Historic |
-| 3.08      | TBD         | TBD       | GSDE     | CaSR v3.2       | N/A      | 1.5.5        | Historic |
-| 3.09      | Benchmark   | NALCMS    | GSDE     | CMIP6/CanESM5   | SSP1-2.6 | 1.5.5        | Future   |
-| 3.10      | Benchmark   | NALCMS    | GSDE     | CMIP6/CanESM5   | SSP2-4.5 | 1.5.5        | Future   |
-| 3.11      | Benchmark   | NALCMS    | GSDE     | CMIP6/CanESM5   | SSP3-7.0 | 1.5.5        | Future   |
-| 3.12      | Benchmark   | NALCMS    | GSDE     | CMIP6/CanESM5   | SSP5-8.5 | 1.5.5        | Future   |
+| 3.08      | TBD         | TBD       | TBD      | CaSR v3.2       | N/A      | 1.5.5        | Historic |
+| 3.09      | Benchmark   | TBD       | TBD      | CMIP6/CanESM5   | SSP1-2.6 | 1.5.5        | Future   |
+| 3.10      | Benchmark   | TBD       | TBD      | CMIP6/CanESM5   | SSP2-4.5 | 1.5.5        | Future   |
+| 3.11      | Benchmark   | TBD       | TBD      | CMIP6/CanESM5   | SSP3-7.0 | 1.5.5        | Future   |
+| 3.12      | Benchmark   | TBD       | TBD      | CMIP6/CanESM5   | SSP5-8.5 | 1.5.5        | Future   |
 | 3.13      | TBD         | NALCMS    | GSDE     | CaSR v3.2       | N/A      | 1.5.5        | Historic |
 
 ---
