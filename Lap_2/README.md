@@ -4,15 +4,11 @@
 
 ## Lap Overview and Objectives [Outdated]
 
-Building on the configuration framework developed in Lap 0, Lap 1 conducts preliminary, uncalibrated model runs with the goal of identifying baseline flow behaviour and sensitivity to climate forcing. Under the simplified conditions, a configured MESH setup is expected to generate reasonable streamflow behaviour, enabling the comparison of atmospheric forcing datasets for future decision-making.
-
-In addition to the diagnostic streamflow analysis, Lap 1 uniquely investigates the connection between water balance components (e.g. precipitation and evapotranspiration) and relevant discharge patterns. In doing so, it enables identification of inconsistencies in model response between climate forcings, ensuring data quality. Comparative assessment is also conducted between future and historic datasets.
-
-On top of comparing additional input datasets, future runs focus on parameterization, calibration, and implementation of MESH physics. Without advanced or optimized features enabled, Lap 1 serves to inform subsequent runs, while unsuitable for publication itself. It does not include formal performance evaluation or confidence assessment.
+Lap 2 advances the project timeline by updating core components and implementing methods for parameterization. It runs on a newer version of MESH (1.5.5), and replaces blanket, Out-of-Box soil properties with a geospatial dataset. The inclusion of GSDE enables lumped parameterization through Grouped Response Units (GRU), setting grid and sub-grid parameters uniformly based on landcover type. Later iterations experiment with distributed parameterization, instead averaging hydrologic properties within subbasin geometry.
 
 ## Datasets Used
 
-Lap 2 consists of 17 iterations which evolve in a stepwise manner. Initial runs of Iterations 1.01 to 1.09 were completed between August 21, 2025 and February 25, 2026. Refer to Lap 0 for details on individual datasets, which are summarized in Table 1.
+Lap 2 consists of 17 iterations which evolve in a stepwise manner. Initial runs of Iterations 2.01 to 2.17 were completed between August 21, 2025 and February 25, 2026. Refer to Lap 0 for details on individual datasets, which are summarized in Table 1.
 
 ---
 
@@ -47,7 +43,14 @@ $KGE=1-\sqrt{\left(r-1\right)^2+\left(\frac{\mu_s}{\mu_o}-1\right)^2+\left(\frac
 
 ## Parameterization Methods
 
-Information in this section will be completed at a later date.
+### Lumped Parameterization
+
+A computationally efficient approach which assigns each landcover class with a set of soil properties averaged across its domain, forming a GRU. Parameters are then applied to watersheds at a sub-grid level through evaluating intersection of the polygon with distinct landcover types. Hydrological properties are then averaged, while land-surface calculations are performed for each GRU within a particular subbasin.
+and performing distinct surface scheme calculations.
+
+### Distributed Parameterization
+
+More intensive but precise, distributed parameterization 
 
 ## Observations Summary
 
