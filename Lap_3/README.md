@@ -1,4 +1,4 @@
-# Lap 3: Geospatial Dataset Evaluation
+# Lap 3: Comprehensive Geospatial Dataset Evaluation
 
 ---
 
