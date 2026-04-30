@@ -91,7 +91,7 @@ The NAS project utilizes several tailored scripts to improve computational effic
 | Wetland, Barren, Urban, Water | 0.02             |
 | Glacial                       | 0.01             | 
 
-Maximization of computational efficiency is essential, as running MESH on the CTRB requires intensive calculations which take days, even in an HPC environment. Additional files, such as domain-specific scripts and the `gauge-regulation` program are included in the directory, but not yet implmented in the project. Details for these scripts are not yet available.
+Maximization of computational efficiency is essential, as running MESH on the CTRB requires intensive calculations which take days, even in an HPC environment. Additional files, such as domain-specific scripts and the `gauge-regulation` program are included in the directory, but not yet implemented in the project. Details for these scripts are not yet available.
 
 ## MESH Configuration Parameters
 

@@ -17,17 +17,17 @@ Lap 1 consists of 9 iterations which evolve in a stepwise manner. Initial runs o
 ---
 
 *Table 1: Lap 1 Iteration Dataset Details*
-| Iteration | Geofabric   | Landcover | Soils      | Forcing   | Scenario | MESH Version | Period   |
-|-----------|-------------|-----------|------------|-----------|----------|--------------|----------|
-| 1.01      | MERIT-Hydro | NALCMS    | Out-of-Box | CaSR v2.1 | N/A      | 1860_ME_ZT   | Historic |
-| 1.02      | CAMELS-SPAT | NALCMS    | Out-of-Box | CaSR v2.1 | N/A      | 1860_ME_ZT   | Historic |
-| 1.03      | CAMELS-SPAT | NALCMS    | Out-of-Box | CaSR v3.1 | N/A      | 1860_ME_ZT   | Historic |
-| 1.04      | Benchmark   | NALCMS    | Out-of-Box | CMIP5     | RCP-8.5  | 1860_ME_ZT   | All      |
-| 1.05      | Benchmark   | NALCMS    | Out-of-Box | CMIP6     | N/A      | 1860_ME_ZT   | Historic |
-| 1.06      | Benchmark   | NALCMS    | Out-of-Box | CMIP6     | SSP1-2.6 | 1860_ME_ZT   | Future   |
-| 1.07      | Benchmark   | NALCMS    | Out-of-Box | CMIP6     | SSP2-4.5 | 1860_ME_ZT   | Future   |
-| 1.08      | Benchmark   | NALCMS    | Out-of-Box | CMIP6     | SSP3-7.0 | 1860_ME_ZT   | Future   |
-| 1.09      | Benchmark   | NALCMS    | Out-of-Box | CMIP6     | SSP5-8.5 | 1860_ME_ZT   | Future   |
+| Iteration | Geofabric   | Landcover | Soils      | Forcing Datasets  | Scenario | MESH Version | Period   |
+|-----------|-------------|-----------|------------|-------------------|----------|--------------|----------|
+| 1.01      | MERIT-Hydro | NALCMS    | Out-of-Box | CaSR v2.1         | N/A      | 1860_ME_ZT   | Historic |
+| 1.02      | CAMELS-SPAT | NALCMS    | Out-of-Box | CaSR v2.1         | N/A      | 1860_ME_ZT   | Historic |
+| 1.03      | CAMELS-SPAT | NALCMS    | Out-of-Box | CaSR v3.1         | N/A      | 1860_ME_ZT   | Historic |
+| 1.04      | Benchmark   | NALCMS    | Out-of-Box | CMIP5/CanRCM4-WGC | RCP-8.5  | 1860_ME_ZT   | All      |
+| 1.05      | Benchmark   | NALCMS    | Out-of-Box | CMIP6/CanESM5     | N/A      | 1860_ME_ZT   | Historic |
+| 1.06      | Benchmark   | NALCMS    | Out-of-Box | CMIP6/CanESM5     | SSP1-2.6 | 1860_ME_ZT   | Future   |
+| 1.07      | Benchmark   | NALCMS    | Out-of-Box | CMIP6/CanESM5     | SSP2-4.5 | 1860_ME_ZT   | Future   |
+| 1.08      | Benchmark   | NALCMS    | Out-of-Box | CMIP6/CanESM5     | SSP3-7.0 | 1860_ME_ZT   | Future   |
+| 1.09      | Benchmark   | NALCMS    | Out-of-Box | CMIP6/CanECM5     | SSP5-8.5 | 1860_ME_ZT   | Future   |
 
 ---
 
@@ -46,16 +46,16 @@ Ten basins were subset from the aggregated MERIT-Hydro dataset as benchmarks for
 *Table 2: Ten Selected Benchmark Basins in the CTRB*
 | Operator | Number   | Station Name                                                           |
 |----------|----------|------------------------------------------------------------------------|
-| WSC      | 01AK010  | SAINT JOHN RIVER AT MACTAQUAC GENERATING STATION                       |
-| WSC      | 02GB001  | GRAND RIVER AT BRANTFORD                                               |
-| WSC      | 03KC004  | MELEZES (RIVER AUX) À 7,6 KM EN AMONT DE LA CONFLUENCE AVEC LA KOKSOAK |
-| WSC      | 05AD007  | OLDMAN RIVER NEAR LETHBRIDGE                                           |
-| WSC      | 05AE027  | ST MARY RIVER AT INTERNATIONAL BOUNDARY                                |
-| WSC      | 05BB001  | BOW RIVER AT BANFF                                                     |
-| WSC      | 070B001  | HAY RIVER NEAR HAY RIVER                                               |
-| WSC      | 10LC017  | HAVIKPAK CREEK NEAR INUVIK                                             |
-| WSC      | 11AA031  | MILK RIVER AT EASTERN CROSSING OF INTERNATIONAL BOUNDARY               |
-| USGS     | 06174500 | MILK RIVER AT NASHUA MT                                                |
+| WSC      | 01AK010  | Saint John River at Mactaquac Generating Station                       |
+| WSC      | 02GB001  | Grand River at Brantford                                               |
+| WSC      | 03KC004  | Melezes (river aux) à 7,6 km en amont de la confluence avec la Koksoak |
+| WSC      | 05AD007  | Oldman River Near Lethbridge                                           |
+| WSC      | 05AE027  | St Mary River at International Boundary                                |
+| WSC      | 05BB001  | Bow River at Banff                                                     |
+| WSC      | 070B001  | Hay River Near Hay River                                               |
+| WSC      | 10LC017  | Havikpak Creek Near Inuvik                                             |
+| WSC      | 11AA031  | Milk River at Eastern Crossing of International Boundary               |
+| USGS     | 06174500 | Milk River at Nashua MT                                                |
 
 ---
 
@@ -65,7 +65,7 @@ Ten basins were subset from the aggregated MERIT-Hydro dataset as benchmarks for
 
 Diagnostic analysis of water balance components identified issues related to the reprojection of climate forcing data. Artefacts in the remapped fields were created in the northwest corner of the CTRB, resultant of spatial discontinuities within the authalic projection. The EASYMORE remapping tool caused the discrepancies, which were resolved through a reduction in model domain.
 
-Expected seasonal and geographic patterns are observed in generated streamflow, such as the spring freshet and orographic enhancement. Additional observations supporting preliminary model plausibility include a peak difference between snowmelt and rainfall-dominated regions, alignment of soil moisture with evaptranspiration, and moderate levels for KGE and NSE. Timing and variation of streamflow are captured by the model, but heterogeneity of efficiency values point to sensitivity to subbasin characteristics. Representative stations (such as LIARD RIVER NEAR THE MOUTH) with higher KGE and NSE values are implemented as benchmarks for future runs.
+Expected seasonal and geographic patterns are observed in generated streamflow, such as the spring freshet and orographic enhancement. Additional observations supporting preliminary model plausibility include a peak difference between snowmelt and rainfall-dominated regions, alignment of soil moisture with evaptranspiration, and moderate levels for KGE and NSE. Timing and variation of streamflow are captured by the model, but heterogeneity of efficiency values point to sensitivity to subbasin characteristics. Representative stations (such as Liard River Near the Mouth) with higher KGE and NSE values are implemented as benchmarks for future runs.
 
 ### Future Runs
 
