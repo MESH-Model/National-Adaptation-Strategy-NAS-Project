@@ -10,7 +10,7 @@ import xarray as xr
 import numpy as np
 
 # === File paths ===
-file1 = "/gpfs/mdiops/gwf/gwf_cmt/zkt451/CanTrans_MESH_model/subbasin_MESH_run/subbasin_master/MESH_drainage_database.nc"  # Replace with your original file
+file1 = "/gpfs/mdiops/gwf/gwf_cmt/zkt451/CanTrans_MESH_model/subbasin_MESH_run/subbasin_master/MESH_drainage_database.nc"                # Replace with your original file
 file2 = "/gpfs/mdiops/gwf/gwf_cmt/zkt451/CanTrans_MESH_model/subbasin_MESH_run/MESH_CaSRv3p1/Average_GRU_Params/merged3_RFF_D_GRD.nc"    # Replace with your merged file
 
 # === Load datasets ===
