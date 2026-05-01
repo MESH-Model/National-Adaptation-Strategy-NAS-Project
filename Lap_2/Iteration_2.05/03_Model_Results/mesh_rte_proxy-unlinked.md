@@ -1,0 +1,1 @@
+File "mesh_rte.log" is too large ADD TEXT for GitHub. Access it [here]([Link]) via Globus connect.
