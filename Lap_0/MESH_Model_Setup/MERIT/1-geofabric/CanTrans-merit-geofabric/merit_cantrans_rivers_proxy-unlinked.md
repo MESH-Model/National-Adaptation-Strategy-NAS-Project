@@ -1,0 +1,1 @@
+File "merit_cantrans_rivers.shp" is too large ADD TEXT for GitHub. Access it [here]([Link]) via Globus connect.
