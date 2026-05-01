@@ -1,8 +1,11 @@
 # === Hydrological Modeling Project Ignore Rules ===
 
+# Files are now transferred from our working directory to this repository using a script.
+# Large files are filtered out automatically and replaced with proxies.
+
 # Ignore all model input/output files over 100MB (typically binary or gridded)
-# *.tb0 For now we are manually excluding files to maximize uploaded information
-# *.nc Current .gitignore rules ignore a large number of files in the repository
+# *.tb0
+# *.nc
 # *.nc4
 # *.grib
 # *.hdf
