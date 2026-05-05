@@ -6,6 +6,8 @@
 
 Lap 2 advances the project timeline by updating core components and implementing methods for parameterization. It runs on a newer version of MESH (1.5.5), and replaces blanket, Out-of-Box soil properties with a geospatial dataset. The inclusion of GSDE enables lumped parameterization through Grouped Response Units (GRU), setting grid and sub-grid parameters uniformly based on landcover type. Later iterations experiment with distributed parameterization, instead averaging hydrologic properties within subbasin geometry.
 
+Lap 1 advances the project timeline by implementing parameter estimation from available datasets and evaluating 
+
 ## Datasets Used
 
 Lap 2 consists of 17 iterations which evolve in a stepwise manner. Initial runs of Iterations 2.01 to 2.17 were completed between August 21, 2025 and February 25, 2026. Refer to Lap 0 for details on individual datasets, which are summarized in Table 1.
@@ -40,6 +42,28 @@ Lap 2 consists of 17 iterations which evolve in a stepwise manner. Initial runs 
 Kling-Gupta Efficiency (KGE) and Nash-Sutcliffe Efficiency (NSE) are the primary performance indicators used to evaluate the uncalibrated model results against observational data.
 
 $KGE=1-\sqrt{\left(r-1\right)^2+\left(\frac{\mu_s}{\mu_o}-1\right)^2+\left(\frac{\sigma_s}{\sigma_o}-1\right)^2}\qquad NSE=1-\frac{\Sigma_{t=1}^T\left(Q_o^t-Q_m^t\right)^2}{\Sigma_{t=1}^T\left(Q_o^t-\bar{Q_o}\right)^2}$
+
+## Benchmark Basins
+
+Ten basins were subset from the aggregated MERIT-Hydro dataset as benchmarks for future climate scenarios, listed in Table 2.
+
+---
+
+*Table 2: Ten Selected Benchmark Basins in the CTRB*
+| Operator | Number   | Station Name                                                           |
+|----------|----------|------------------------------------------------------------------------|
+| WSC      | 01AK010  | Saint John River at Mactaquac Generating Station                       |
+| WSC      | 02GB001  | Grand River at Brantford                                               |
+| WSC      | 03KC004  | Melezes (river aux) à 7,6 km en amont de la confluence avec la Koksoak |
+| WSC      | 05AD007  | Oldman River Near Lethbridge                                           |
+| WSC      | 05AE027  | St Mary River at International Boundary                                |
+| WSC      | 05BB001  | Bow River at Banff                                                     |
+| WSC      | 070B001  | Hay River Near Hay River                                               |
+| WSC      | 10LC017  | Havikpak Creek Near Inuvik                                             |
+| WSC      | 11AA031  | Milk River at Eastern Crossing of International Boundary               |
+| USGS     | 06174500 | Milk River at Nashua MT                                                |
+
+---
 
 ## Parameterization Methods
 
