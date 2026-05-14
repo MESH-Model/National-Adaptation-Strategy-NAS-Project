@@ -17,17 +17,17 @@ Lap 1 consists of 9 iterations which evolve in a stepwise manner. Initial runs o
 ---
 
 *Table 1: Lap 1 Iteration Dataset Details*
-| Iteration | Geofabric   | Landcover | Soils      | Forcing Datasets  | Scenario | MESH Version | Period   |
-|-----------|-------------|-----------|------------|-------------------|----------|--------------|----------|
-| 1.01      | MERIT-Hydro | NALCMS    | Out-of-Box | CaSR v2.1         | N/A      | 1860_ME_ZT   | Historic |
-| 1.02      | CAMELS-SPAT | NALCMS    | Out-of-Box | CaSR v2.1         | N/A      | 1860_ME_ZT   | Historic |
-| 1.03      | CAMELS-SPAT | NALCMS    | Out-of-Box | CaSR v3.1         | N/A      | 1860_ME_ZT   | Historic |
-| 1.04      | Benchmark   | NALCMS    | Out-of-Box | CMIP5/CanRCM4-WGC | RCP-8.5  | 1860_ME_ZT   | All      |
-| 1.05      | Benchmark   | NALCMS    | Out-of-Box | CMIP6/CanESM5     | N/A      | 1860_ME_ZT   | Historic |
-| 1.06      | Benchmark   | NALCMS    | Out-of-Box | CMIP6/CanESM5     | SSP1-2.6 | 1860_ME_ZT   | Future   |
-| 1.07      | Benchmark   | NALCMS    | Out-of-Box | CMIP6/CanESM5     | SSP2-4.5 | 1860_ME_ZT   | Future   |
-| 1.08      | Benchmark   | NALCMS    | Out-of-Box | CMIP6/CanESM5     | SSP3-7.0 | 1860_ME_ZT   | Future   |
-| 1.09      | Benchmark   | NALCMS    | Out-of-Box | CMIP6/CanECM5     | SSP5-8.5 | 1860_ME_ZT   | Future   |
+| Iteration | Geofabric   | Landcover | Soils      | Forcing Datasets  | Scenario | MESH Version | Period     |
+|-----------|-------------|-----------|------------|-------------------|----------|--------------|------------|
+| 1.01      | MERIT-Hydro | NALCMS    | Out-of-Box | CaSR v2.1         | N/A      | 1860_ME_ZT   | Historical |
+| 1.02      | CAMELS-SPAT | NALCMS    | Out-of-Box | CaSR v2.1         | N/A      | 1860_ME_ZT   | Historical |
+| 1.03      | CAMELS-SPAT | NALCMS    | Out-of-Box | CaSR v3.1         | N/A      | 1860_ME_ZT   | Historical |
+| 1.04      | Benchmark   | NALCMS    | Out-of-Box | CMIP5/CanRCM4-WGC | RCP-8.5  | 1860_ME_ZT   | All        |
+| 1.05      | Benchmark   | NALCMS    | Out-of-Box | CMIP6/CanESM5     | N/A      | 1860_ME_ZT   | Historical |
+| 1.06      | Benchmark   | NALCMS    | Out-of-Box | CMIP6/CanESM5     | SSP1-2.6 | 1860_ME_ZT   | Future     |
+| 1.07      | Benchmark   | NALCMS    | Out-of-Box | CMIP6/CanESM5     | SSP2-4.5 | 1860_ME_ZT   | Future     |
+| 1.08      | Benchmark   | NALCMS    | Out-of-Box | CMIP6/CanESM5     | SSP3-7.0 | 1860_ME_ZT   | Future     |
+| 1.09      | Benchmark   | NALCMS    | Out-of-Box | CMIP6/CanECM5     | SSP5-8.5 | 1860_ME_ZT   | Future     |
 
 ---
 
