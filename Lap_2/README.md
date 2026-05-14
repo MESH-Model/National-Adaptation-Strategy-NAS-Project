@@ -8,9 +8,9 @@ Lap 2 advances the project timeline by implementing parameter estimation from av
 
 The workflow implements lumped parameterization through Grouped Response Units (GRU), combining soil and landcover properties to reduce complexity and eliminate redundant calculations. GRUs are built on the assumption that soil properties are constant across a specific landcover type. To challenge said assumption, a run is conducted using distributed parameterization, which decouples the surface parameters and assesses whether the resultant changes to the output are significant.
 
-As an integrative variable, streamflow is the primary anchor point for model evaluation. Its coupled nature with the range of available hydrological processes represented in the MESH model make it effective at summarizing Lap results, which functions well with the fact that it is widely-understood. Flow rate is also efficient to statistically evaluate and visualize, enabling comparisons with the benchmarks defined in Lap 1.
+As an integrative variable, streamflow is the primary anchor point for model evaluation. Its coupled nature with the range of available hydrological processes represented in the MESH model make it effective at summarizing lap results, which functions well with the fact that it is widely-understood. Flow rate is also efficient to statistically evaluate and visualize, enabling comparisons with the benchmarks defined in Lap 1.
 
-Similar to the previous Lap, Lap 2 also includes full-domain climate simulations using CMIP6 forcing. While certain patterns are apparent, the runs are conducted as a proof-of-concept, demonstrating model operability and credibility.
+Similar to the previous lap, Lap 2 also includes full-domain climate simulations using CMIP6 forcing. While certain patterns are apparent, the runs are conducted as a proof-of-concept, demonstrating model operability and credibility.
 
 ## Datasets Used
 
@@ -63,13 +63,23 @@ More intensive but precise, distributed parameterization involves extraction of 
 
 ## Observations Summary
 
-### Historical Runs
+### Reanalysis Forcing Comparisons
 
 It is established through CDF-based performance evaluation that dataset-based estimation outperforms default model parameters, and that lumped parameterization outperforms the distributed method. This suggests that the input land-surface datasets provide a stronger reflection of reality, and that GRUs generate model consistency and stability. By averaging soil parameters across a given environment, the GRU method reduces the influence of uncertainty in the input datasets. While it cannot be declared that lumped parameterization is universally superior, it is carried forward by merit of its benefits to the present modelling setup.
 
 In addition to parameterization, Lap 2 explores the influence of forcing datasets and versions on the model output. Initial iterations examining configurations of the Canadian Surface Reanalysis (CaSR; see Lap 0) favour version 3.2, which is the latest as of May 14, 2026. The discrepancy is attributed to internal data quality improvements, which are adopted moving forward. CaSR performs well in mountain and shield regions with pronounced variation in topography, but struggles more with flat and endorheic basins such as the Canadian Prairies, where diminished KGE values are produced.
 
+While streamflow is the primary indicator variable assessed across iterations, it is supported by Snow Water Equivalent (SWE). Checking snow behaviour in the model not only ensures snow processes are represented accurately, but also provides an additional layer of confidence which is especially apparent in snowfall-dominated basins. For historical iterations, model results are compared directly with CanSWE, which is Canada's historical standard. For Lap 2, both snowfall magnitude and timing exhibit loose correlation within the model, and will be closely monitored through future iterations. 
+
 ### Future Runs
+
+Climate change simulations for multiple SSPs using CanESM5 data are performed in Lap 2, utilizing the parameterization applied in iteration 2.01. They are otherwise analagous to the runs completed in Lap 1, and marginal changes are observed.
+
+### Alternative Forcing Comparisons
+
+With reanalysis forcing established as a reference point, the lap concludes with an analysis of possible alternatives, investigating Global Circulation Models (GCMs). Several GCMs are evaluated, focusing on temperature and precipitation as key meteorological variables and cruxes for comparison. By evaluating input parameter variability, context is granted into resultant patterns. The methodology is intended to characterize differences in the forcing datasets, supporting their subsequent modelling application.
+
+This section will be completed at a later date.
 
 ## Project Team
 
