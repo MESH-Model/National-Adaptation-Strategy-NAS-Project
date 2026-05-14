@@ -8,7 +8,7 @@ Lap 2 advances the project timeline by implementing parameter estimation from av
 
 The workflow implements lumped parameterization through Grouped Response Units (GRU), combining soil and landcover properties to reduce complexity and eliminate redundant calculations. GRUs are built on the assumption that soil properties are constant across a specific landcover type. To challenge said assumption, a run is conducted using distributed parameterization, which decouples the surface parameters and assesses whether the resultant changes to the output are significant.
 
-As an integrative variable, streamflow is the primary anchor point for model evaluation. Its coupled nature with the range of available hydrological processes represented in the MESH model make it effective at summarizing Lap results, which functions well with its accessiblility as a widely-understood parameter. Flow rate is also efficient to statistically evaluate and visualize, enabling comparisons with the benchmarks defined in Lap 1.
+As an integrative variable, streamflow is the primary anchor point for model evaluation. Its coupled nature with the range of available hydrological processes represented in the MESH model make it effective at summarizing Lap results, which functions well with the fact that it is widely-understood. Flow rate is also efficient to statistically evaluate and visualize, enabling comparisons with the benchmarks defined in Lap 1.
 
 Similar to the previous Lap, Lap 2 also includes full-domain climate simulations using CMIP6 forcing. While certain patterns are apparent, the runs are conducted as a proof-of-concept, demonstrating model operability and credibility.
 
