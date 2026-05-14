@@ -19,25 +19,25 @@ Lap 2 consists of 17 iterations which evolve in a stepwise manner. Initial runs 
 ---
 
 *Table 1: Lap 2 Iteration Dataset Details*
-| Iteration | Geofabric   | Landcover | Soils | Forcing Dataset     | Scenario | MESH Version | Period   |
-|-----------|-------------|-----------|-------|---------------------|----------|--------------|----------|
-| 2.01      | MERIT-Hydro | NALCMS    | GSDE  | CaSR v2.1           | N/A      | 1.5.5        | Historic |
-| 2.02      | MERIT-Hydro | NALCMS    | GSDE  | CaSR v3.1           | N/A      | 1860_ME_ZT   | Historic |
-| 2.03      | MERIT-Hydro | NALCMS    | GSDE  | CaSR v3.1           | N/A      | 1.5.5        | Historic |
-| 2.04      | MERIT-Hydro | NALCMS    | GSDE  | CaSR v3.1           | N/A      | 1.5.5        | Historic |
-| 2.05      | MERIT-Hydro | NALCMS    | GSDE  | CaSR v3.1           | N/A      | 1.5.5        | Historic |
-| 2.06      | MERIT-Hydro | NALCMS    | GSDE  | CaSR v3.1           | N/A      | 1.5.5        | Historic |
-| 2.07      | MERIT-Hydro | NALCMS    | GSDE  | CMIP6/CanESM5       | N/A      | 1.5.5        | Historic |
-| 2.08      | MERIT-Hydro | NALCMS    | GSDE  | CMIP6/CanESM5       | SSP1-2.6 | 1.5.5        | Future   |
-| 2.09      | MERIT-Hydro | NALCMS    | GSDE  | CMIP6/CanESM5       | SSP2-4.5 | 1.5.5        | Future   |
-| 2.10      | MERIT-Hydro | NALCMS    | GSDE  | CMIP6/CanESM5       | SSP3-7.0 | 1.5.5        | Future   |
-| 2.11      | MERIT-Hydro | NALCMS    | GSDE  | CMIP6/CanESM5       | SSP5-8.5 | 1.5.5        | Future   |
-| 2.12      | MERIT-Hydro | NALCMS    | GSDE  | CaSR v3.2           | N/A      | 1.5.5        | Historic |
-| 2.13      | MERIT-Hydro | NALCMS    | GSDE  | ERA5-Land           | N/A      | 1.5.5        | Historic |
-| 2.14      | MERIT-Hydro | NALCMS    | GSDE  | CMIP6/MPI-ESM1-2-LR | N/A      | 1.5.5        | Historic |
-| 2.15      | MERIT-Hydro | NALCMS    | GSDE  | CMIP6/CNRM-ESM2-1   | N/A      | 1.5.5        | Historic |
-| 2.16      | MERIT-Hydro | NALCMS    | GSDE  | CMIP6/NorESM2-MM    | N/A      | 1.5.5        | Historic |
-| 2.17      | MERIT-Hydro | NALCMS    | GSDE  | CaSR v3.2           | N/A      | 1.5.6        | Historic |
+| Iteration | Geofabric   | Landcover | Soils | Forcing Dataset     | Scenario | MESH Version | Period     |
+|-----------|-------------|-----------|-------|---------------------|----------|--------------|------------|
+| 2.01      | MERIT-Hydro | NALCMS    | GSDE  | CaSR v2.1           | N/A      | 1.5.5        | Historical |
+| 2.02      | MERIT-Hydro | NALCMS    | GSDE  | CaSR v3.1           | N/A      | 1860_ME_ZT   | Historical |
+| 2.03      | MERIT-Hydro | NALCMS    | GSDE  | CaSR v3.1           | N/A      | 1.5.5        | Historical |
+| 2.04      | MERIT-Hydro | NALCMS    | GSDE  | CaSR v3.1           | N/A      | 1.5.5        | Historical |
+| 2.05      | MERIT-Hydro | NALCMS    | GSDE  | CaSR v3.1/Forecast  | N/A      | 1.5.5        | Historical |
+| 2.06      | MERIT-Hydro | NALCMS    | GSDE  | CaSR v3.1           | N/A      | 1.5.5        | Historical |
+| 2.07      | MERIT-Hydro | NALCMS    | GSDE  | CMIP6/CanESM5       | N/A      | 1.5.5        | Historical |
+| 2.08      | MERIT-Hydro | NALCMS    | GSDE  | CMIP6/CanESM5       | SSP1-2.6 | 1.5.5        | Future     |
+| 2.09      | MERIT-Hydro | NALCMS    | GSDE  | CMIP6/CanESM5       | SSP2-4.5 | 1.5.5        | Future     |
+| 2.10      | MERIT-Hydro | NALCMS    | GSDE  | CMIP6/CanESM5       | SSP3-7.0 | 1.5.5        | Future     |
+| 2.11      | MERIT-Hydro | NALCMS    | GSDE  | CMIP6/CanESM5       | SSP5-8.5 | 1.5.5        | Future     |
+| 2.12      | MERIT-Hydro | NALCMS    | GSDE  | CaSR v3.2           | N/A      | 1.5.5        | Historical |
+| 2.13      | MERIT-Hydro | NALCMS    | GSDE  | ERA5-Land           | N/A      | 1.5.5        | Historical |
+| 2.14      | MERIT-Hydro | NALCMS    | GSDE  | CMIP6/MPI-ESM1-2-LR | N/A      | 1.5.5        | Historical |
+| 2.15      | MERIT-Hydro | NALCMS    | GSDE  | CMIP6/NorESM2-MM    | N/A      | 1.5.5        | Historical |
+| 2.16      | MERIT-Hydro | NALCMS    | GSDE  | CaSR v3.2           | N/A      | 1.5.6        | Historical |
+| 2.17      | MERIT-Hydro | NALCMS    | GSDE  | CaSR v3.2           | N/A      | 1.5.7        | Historical |
 
 ---
 
