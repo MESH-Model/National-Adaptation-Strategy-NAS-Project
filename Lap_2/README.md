@@ -47,7 +47,7 @@ Kling-Gupta Efficiency (KGE) and Nash-Sutcliffe Efficiency (NSE) are the primary
 
 $\mathrm{KGE}=1-\sqrt{\left(r-1\right)^2+\left(\frac{\mu_s}{\mu_o}-1\right)^2+\left(\frac{\sigma_s}{\sigma_o}-1\right)^2}\qquad \mathrm{NSE}=1-\frac{\Sigma_{t=1}^T\left(Q_o^t-Q_m^t\right)^2}{\Sigma_{t=1}^T\left(Q_o^t-\bar{Q_o}\right)^2}\qquad \mathrm{NKGE}=\frac{1}{2-\mathrm{KGE}}$
 
-Additionally, Normalized KGE (NKGE) is implemented for visualization and reporting purposes, as it flattens large outliers by restricting the output range to [0, 1]. Simplifying display of the hydrological output enables streamlined comparisons of the Cumulative Distribution Functions (CDFs) for each iteration, which are used to identify model improvement. It is defined below.
+Additionally, Normalized KGE (NKGE) is implemented for visualization and reporting purposes, as it flattens large outliers by restricting the output range to [0, 1]. Simplifying display of the hydrological output enables streamlined comparisons of the Cumulative Distribution Functions (CDFs) of gauging stations for each iteration, which are used to identify model improvement. It is defined below.
 
 ## Parameterization Methods
 
