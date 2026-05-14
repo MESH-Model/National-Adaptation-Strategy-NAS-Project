@@ -4,9 +4,13 @@
 
 ## Lap Overview and Objectives
 
-Lap 2 advances the project timeline by updating core components and implementing methods for parameterization. It runs on a newer version of MESH (1.5.5), and replaces blanket, Out-of-Box soil properties with a geospatial dataset. The inclusion of GSDE enables lumped parameterization through Grouped Response Units (GRU), setting grid and sub-grid parameters uniformly based on landcover type. Later iterations experiment with distributed parameterization, instead averaging hydrologic properties within subbasin geometry.
+Lap 2 advances the project timeline by implementing parameter estimation from available datasets and evaluating options for atmospheric forcing. It runs on a newer version of MESH (1.5.5), and replaces blanket, Out-of-Box soil properties with a geospatial datasets, assessing output realism from physically informed parameterization.
 
-Lap 2 advances the project timeline by implementing parameter estimation from available datasets and evaluating...
+The workflow implements lumped parameterization through Grouped Response Units (GRU), combining soil and landcover properties to reduce complexity and eliminate redundant calculations. GRUs are built on the assumption that soil properties are constant across a certain landcover type. Said assumption is challenged with a run using distributed parameterization, which decouples the surface parameters and evaluates the effects of the GRU method on the model output.
+
+As an integrative variable, streamflow is the primary anchor point for model evaluation. Its coupled nature with the range of available hydrological processes represented in the MESH model make it effective at summarizing Lap results, which functions well with its accessiblility as a widely-understood parameter. Flow rate is also efficient to statistically evaluate and visualize, enabling comparisons with the benchmarks defined in Lap 1.
+
+Similar to the previous Lap, Lap 2 also includes full-domain climate simulations using CMIP6 forcing. While certain patterns are apparent, the runs are conducted as a proof-of-concept, demonstrating model operability and credibility.
 
 ## Datasets Used
 
