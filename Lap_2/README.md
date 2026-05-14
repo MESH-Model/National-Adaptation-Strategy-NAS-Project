@@ -45,9 +45,10 @@ Lap 2 consists of 17 iterations which evolve in a stepwise manner. Initial runs 
 
 Kling-Gupta Efficiency (KGE) and Nash-Sutcliffe Efficiency (NSE) are the primary performance indicators used to evaluate the uncalibrated model results against observational data.
 
+Additionally, Normalized KGE (NKGE) is implemented for visualization and reporting purposes, as it flattens large outliers by restricting the output range to [0, 1]. Simplifying display of the hydrological output enables streamlined comparisons of the Cumulative Distribution Functions (CDFs) of gauging stations for each iteration, which are used to identify model improvement.
+
 $\mathrm{KGE}=1-\sqrt{\left(r-1\right)^2+\left(\frac{\mu_s}{\mu_o}-1\right)^2+\left(\frac{\sigma_s}{\sigma_o}-1\right)^2}\qquad \mathrm{NSE}=1-\frac{\Sigma_{t=1}^T\left(Q_o^t-Q_m^t\right)^2}{\Sigma_{t=1}^T\left(Q_o^t-\bar{Q_o}\right)^2}\qquad \mathrm{NKGE}=\frac{1}{2-\mathrm{KGE}}$
 
-Additionally, Normalized KGE (NKGE) is implemented for visualization and reporting purposes, as it flattens large outliers by restricting the output range to [0, 1]. Simplifying display of the hydrological output enables streamlined comparisons of the Cumulative Distribution Functions (CDFs) of gauging stations for each iteration, which are used to identify model improvement.
 
 ## Parameterization Methods
 
@@ -62,7 +63,13 @@ More intensive but precise, distributed parameterization involves extraction of 
 
 ## Observations Summary
 
-Information in this section will be completed at a later date.
+### Historical Runs
+
+It is established through CDF-based performance evaluation that dataset-based estimation outperforms default model parameters, and that lumped parameterization outperforms the distributed method. This suggests that the input land-surface datasets provide a stronger reflection of reality, and that GRUs generate model consistency and stability. By averaging soil parameters across a given environment, the GRU method reduces the influence of uncertainty in the input datasets. While it cannot be declared that lumped parameterization is universally superior, it is carried forward by merit of its benefits to the present modelling setup.
+
+In addition to parameterization, Lap 2 explores the influence of forcing datasets and versions on the model output. Initial iterations examining configurations of the Canadian Surface Reanalysis (CaSR; see Lap 0) favour version 3.2, which is the latest as of May 14, 2026. The discrepancy is attributed to internal data quality improvements, which are adopted moving forward. CaSR performs well in mountain and shield regions with pronounced variation in topography, but struggles more with flat and endorheic basins such as the Canadian Prairies, where diminished KGE values are produced.
+
+### Future Runs
 
 ## Project Team
 
