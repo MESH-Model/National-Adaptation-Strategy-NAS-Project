@@ -45,29 +45,9 @@ Lap 2 consists of 17 iterations which evolve in a stepwise manner. Initial runs 
 
 Kling-Gupta Efficiency (KGE) and Nash-Sutcliffe Efficiency (NSE) are the primary performance indicators used to evaluate the uncalibrated model results against observational data.
 
-$KGE=1-\sqrt{\left(r-1\right)^2+\left(\frac{\mu_s}{\mu_o}-1\right)^2+\left(\frac{\sigma_s}{\sigma_o}-1\right)^2}\qquad NSE=1-\frac{\Sigma_{t=1}^T\left(Q_o^t-Q_m^t\right)^2}{\Sigma_{t=1}^T\left(Q_o^t-\bar{Q_o}\right)^2}$
+$\mathrm{KGE}=1-\sqrt{\left(r-1\right)^2+\left(\frac{\mu_s}{\mu_o}-1\right)^2+\left(\frac{\sigma_s}{\sigma_o}-1\right)^2}\qquad \mathrm{NSE}=1-\frac{\Sigma_{t=1}^T\left(Q_o^t-Q_m^t\right)^2}{\Sigma_{t=1}^T\left(Q_o^t-\bar{Q_o}\right)^2}\qquad \mathrm{NKGE}=\frac{1}{2-\mathrm{KGE}}$
 
-## Benchmark Basins
-
-Ten basins were subset from the aggregated MERIT-Hydro dataset as benchmarks for future climate scenarios, listed in Table 2.
-
----
-
-*Table 2: Ten Selected Benchmark Basins in the CTRB*
-| Operator | Number   | Station Name                                                           |
-|----------|----------|------------------------------------------------------------------------|
-| WSC      | 01AK010  | Saint John River at Mactaquac Generating Station                       |
-| WSC      | 02GB001  | Grand River at Brantford                                               |
-| WSC      | 03KC004  | Melezes (river aux) à 7,6 km en amont de la confluence avec la Koksoak |
-| WSC      | 05AD007  | Oldman River Near Lethbridge                                           |
-| WSC      | 05AE027  | St Mary River at International Boundary                                |
-| WSC      | 05BB001  | Bow River at Banff                                                     |
-| WSC      | 070B001  | Hay River Near Hay River                                               |
-| WSC      | 10LC017  | Havikpak Creek Near Inuvik                                             |
-| WSC      | 11AA031  | Milk River at Eastern Crossing of International Boundary               |
-| USGS     | 06174500 | Milk River at Nashua MT                                                |
-
----
+Additionally, Normalized KGE (NKGE) is implemented for visualization and reporting purposes, as it flattens large outliers by restricting the output range to [0, 1]. Simplifying display of the hydrological output enables streamlined comparisons of the Cumulative Distribution Functions (CDFs) for each iteration, which are compared to identify model improvement. It is defined below.
 
 ## Parameterization Methods
 
