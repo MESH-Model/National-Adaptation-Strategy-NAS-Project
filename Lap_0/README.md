@@ -29,6 +29,7 @@ The NAS project utilizes a range of additional Python scripts in the preprocessi
 ---
 
 ![Modified Model Agnostic Framework](../Images/MAF_Strategy.png)  
+
 *Figure 1: The Model Agnostic Framework Workflow, Including Additional Scripts*
 
 ---
