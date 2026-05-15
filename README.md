@@ -14,7 +14,7 @@ The timeline shown is indicative and not to scale and reflects expected technica
 
 ---
 
-![Model Run Configuration Sequencing Strategy](Images/Model_run_config.png)  
+![Model Run Configuration Sequencing Strategy](Images/Model_Run_Configuration.png)  
 *Figure 1: NAS hydrological modelling lap-based project design and indicative timeline*
 
 ---
@@ -57,7 +57,7 @@ The domain reflects the geographical and hydrological diversity of Canada's rive
 
 ---
 
-![Canada Transboundary Basins](Images/Merit_Basins_CTRB.png)  
+![Canada Transboundary Basins](Images/MERIT_Basins_CTRB.png)  
 *Figure 2: Canada's River Basins and Transboundary Systems with MERIT-Hydro Geofabric (before and after Aggregation)*
 
 ---
