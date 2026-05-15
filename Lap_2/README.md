@@ -77,7 +77,8 @@ Climate change simulations for multiple SSPs using CanESM5 data are performed in
 
 ---
 
-![Provisional Benchmark Basin Projected Hydrology](../Images/Lap1_Provisional_Hydrology.png) 
+![Provisional Benchmark Basin Projected Hydrology](../Images/Lap2_National_Hydrology.jpg) 
+
 *Figure 1: Projected Total Annual Streamflow Change in the CTRB under SSP5-8.5 (Provisional)*
 
 ---
@@ -90,7 +91,8 @@ Each of the compared GCMs display large-scale spatial gradients which align with
 
 ---
 
-![Provisional Benchmark Basin Projected Hydrology](../Images/Lap1_Provisional_Hydrology.png) 
+![Provisional Benchmark Basin Projected Hydrology](../Images/Lap2_Provisional_Hydrology.jpg) 
+
 *Figure 2: Projected Hydrology Across Select Benchmark Basins Comparing CMIP6 GCM Models (Provisional)*
 
 ---
