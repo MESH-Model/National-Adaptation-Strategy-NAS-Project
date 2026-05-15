@@ -76,6 +76,7 @@ Initial iterations using CMIP5 suggest a backward movement of freshet timing, el
 ---
 
 ![Provisional Benchmark Basin Projected Hydrology](../Images/Lap1_Provisional_Hydrology.jpg) 
+
 *Figure 1: Projected Hydrology Across Select Benchmark Basins Using CMIP6 CanESM5 Forcing (Provisional)*
 
 ---
