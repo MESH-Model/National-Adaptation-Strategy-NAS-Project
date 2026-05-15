@@ -73,13 +73,27 @@ While streamflow is the primary indicator variable assessed across iterations, i
 
 ### Future Runs
 
-Climate change simulations for multiple SSPs using CanESM5 data are performed in Lap 2, utilizing the parameterization applied in iteration 2.01. They are otherwise analagous to the runs completed in Lap 1, and marginal changes are observed.
+Climate change simulations for multiple SSPs using CanESM5 data are performed in Lap 2, utilizing the parameterization applied in iteration 2.01. They are otherwise analagous to the runs completed in Lap 1, and marginal changes are observed. When applied at the national scale, patterns of increased annual streamflow are visible in the arctic and subarctic tundras, wwith the opposite occurring in the prairies. The flow changes become more pronounced by the end of the century, especially under higher warming scenarios, as displayed in Figure 1.
+
+---
+
+![Provisional Benchmark Basin Projected Hydrology](../Images/Lap1_Provisional_Hydrology.png) 
+*Figure 1: Projected Total Annual Streamflow Change in the CTRB under SSP5-8.5 (Provisional)*
+
+---
 
 ### Alternative Forcing Comparisons
 
-With reanalysis forcing established as a reference point, the lap concludes with an analysis of possible alternatives, investigating Global Circulation Models (GCMs). Several GCMs are evaluated, focusing on temperature and precipitation as key meteorological variables and cruxes for comparison. By evaluating input parameter variability, context is granted into resultant patterns. The methodology is intended to characterize differences in the forcing datasets, supporting their subsequent modelling application.
+With reanalysis forcing established as a reference point, the lap concludes with an analysis of possible alternatives, investigating Global Circulation Models (GCMs) in the CMIP6 ensemble. Several GCMs are evaluated, focusing on temperature and precipitation as key meteorological variables and cruxes for comparison. By evaluating input parameter variability, context is granted into resultant patterns. The methodology is intended to characterize differences in the forcing datasets, supporting their subsequent modelling application.
 
-This section will be completed at a later date.
+Each of the compared GCMs display large-scale spatial gradients which align with those displayed in CaSR v3.2, while exhibiting systematic differences. CanESM5, for example, produces colder temperatures and more rainfall. NorESM2, on the other hand, appears wetter but warmer, especially in the northern regions. The most similar GCM to the reanalysis is MPI-ESM1, which produces only minor disagreements in either direction. Significant discrepancies between the models generate notable output streamflow differences in the benchmark basins, especially where snow-dominated. Figure 2 illustrates said differences. While the regime is generally captured, it can be concluded that atmospheric forcing selection significantly affects the model results.
+
+---
+
+![Provisional Benchmark Basin Projected Hydrology](../Images/Lap1_Provisional_Hydrology.png) 
+*Figure 2: Projected Hydrology Across Select Benchmark Basins Comparing CMIP6 GCM Models (Provisional)*
+
+---
 
 ## Project Team
 
