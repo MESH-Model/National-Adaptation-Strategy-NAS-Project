@@ -1,0 +1,5 @@
+pandas==2.3.3
+numpy==2.3.5
+matplotlib==3.10.6
+cmap==0.7.2
+nhs-posprocessing @ git+https://github.com/fuadyassin/NHS_PostProcessing.git
