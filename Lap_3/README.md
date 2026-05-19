@@ -8,7 +8,7 @@ Information in this section will be completed at a later date.
 
 ## Datasets Used
 
-Lap 3 consists of 13 iterations which evolve in a stepwise manner. Initial runs of Iterations 3.01 to 2.13 are not yet fully completed. Refer to Lap 0 for details on individual datasets, which are summarized in Table 1.
+Lap 3 consists of 14 iterations which evolve in a stepwise manner. Initial runs of Iterations 3.01 to 3.14 were completed between December 3, 2025 and May 14, 2026. Refer to Lap 0 for details on individual datasets, which are summarized in Table 1.
 
 ---
 
@@ -17,17 +17,18 @@ Lap 3 consists of 13 iterations which evolve in a stepwise manner. Initial runs 
 |-----------|-------------|-----------|----------|-----------------|----------|--------------|----------|
 | 3.01      | CAMELS-SPAT | NALCMS    | GSDE     | CaSR v3.2       | N/A      | 1.5.5        | Historic |
 | 3.02      | CLRH        | NALCMS    | GSDE     | CaSR v3.2       | N/A      | 1.5.5        | Historic |
-| 3.03      | MERIT-HYDRO | NALCMS    | GSDE     | CaSR v3.2       | N/A      | 1.5.5        | Historic |
+| 3.03      | CLRH        | NALCMS    | GSDE     | CaSR v3.2       | N/A      | 1.5.5        | Historic |
 | 3.04      | MERIT-HYDRO | ESA       | GSDE     | CaSR v3.2       | N/A      | 1.5.5        | Historic |
 | 3.05      | MERIT-HYDRO | NALCMS    | SoilGrid | CaSR v3.2       | N/A      | 1.5.5        | Historic |
 | 3.06      | MizuRoute   | NALCMS    | GSDE     | CaSR v3.2       | N/A      | 1.5.5        | Historic |
 | 3.07      | Raven       | NALCMS    | GSDE     | CaSR v3.2       | N/A      | 1.5.5        | Historic |
-| 3.08      | TBD         | TBD       | TBD      | CaSR v3.2       | N/A      | 1.5.5        | Historic |
-| 3.09      | Benchmark   | TBD       | TBD      | CMIP6/CanESM5   | SSP1-2.6 | 1.5.5        | Future   |
-| 3.10      | Benchmark   | TBD       | TBD      | CMIP6/CanESM5   | SSP2-4.5 | 1.5.5        | Future   |
-| 3.11      | Benchmark   | TBD       | TBD      | CMIP6/CanESM5   | SSP3-7.0 | 1.5.5        | Future   |
-| 3.12      | Benchmark   | TBD       | TBD      | CMIP6/CanESM5   | SSP5-8.5 | 1.5.5        | Future   |
-| 3.13      | TBD         | NALCMS    | GSDE     | CaSR v3.2       | N/A      | 1.5.5        | Historic |
+| 3.08      | TBD         | TBD       | TBD      | CaSR v3.2       | N/A      | TBD          | Historic |
+| 3.09      | Benchmark   | TBD       | TBD      | CMIP6/CanESM5   | SSP1-2.6 | TBD          | Future   |
+| 3.10      | Benchmark   | TBD       | TBD      | CMIP6/CanESM5   | SSP2-4.5 | TBD          | Future   |
+| 3.11      | Benchmark   | TBD       | TBD      | CMIP6/CanESM5   | SSP3-7.0 | TBD          | Future   |
+| 3.12      | Benchmark   | TBD       | TBD      | CMIP6/CanESM5   | SSP5-8.5 | TBD          | Future   |
+| 3.13      | TBD         | TBD       | TBD      | CaSR v3.2       | N/A      | TBD          | Historic |
+| 3.14      | CAMELS-SPAT | TBD       | TBD      | CaSR v3.2       | N/A      | TBD          | Historic |
 
 ---
 
