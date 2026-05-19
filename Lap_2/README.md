@@ -14,7 +14,7 @@ Similar to the previous lap, Lap 2 also includes full-domain climate simulations
 
 ## Datasets Used
 
-Lap 2 consists of 17 iterations which evolve in a stepwise manner. Initial runs of Iterations 2.01 to 2.17 were completed between August 21, 2025 and February 25, 2026. Refer to Lap 0 for details on individual datasets, which are summarized in Table 1.
+Lap 2 consists of 17 iterations which evolve in a stepwise manner. Initial runs of Iterations 2.01 to 2.17 were completed between August 21, 2025 and April 15, 2026. Refer to Lap 0 for details on individual datasets, which are summarized in Table 1.
 
 ---
 
@@ -27,11 +27,11 @@ Lap 2 consists of 17 iterations which evolve in a stepwise manner. Initial runs 
 | 2.04      | MERIT-Hydro | NALCMS    | GSDE  | CaSR v3.1           | N/A      | 1.5.5        | Historical |
 | 2.05      | MERIT-Hydro | NALCMS    | GSDE  | CaSR v3.1/Forecast  | N/A      | 1.5.5        | Historical |
 | 2.06      | MERIT-Hydro | NALCMS    | GSDE  | CaSR v3.1           | N/A      | 1.5.5        | Historical |
-| 2.07      | MERIT-Hydro | NALCMS    | GSDE  | CMIP6/CanESM5       | N/A      | 1.5.5        | Historical |
-| 2.08      | MERIT-Hydro | NALCMS    | GSDE  | CMIP6/CanESM5       | SSP1-2.6 | 1.5.5        | Future     |
-| 2.09      | MERIT-Hydro | NALCMS    | GSDE  | CMIP6/CanESM5       | SSP2-4.5 | 1.5.5        | Future     |
-| 2.10      | MERIT-Hydro | NALCMS    | GSDE  | CMIP6/CanESM5       | SSP3-7.0 | 1.5.5        | Future     |
-| 2.11      | MERIT-Hydro | NALCMS    | GSDE  | CMIP6/CanESM5       | SSP5-8.5 | 1.5.5        | Future     |
+| 2.07      | Benchmark   | NALCMS    | GSDE  | CMIP6/CanESM5       | N/A      | 1.5.5        | Historical |
+| 2.08      | Benchmark   | NALCMS    | GSDE  | CMIP6/CanESM5       | SSP1-2.6 | 1.5.5        | Future     |
+| 2.09      | Benchmark   | NALCMS    | GSDE  | CMIP6/CanESM5       | SSP2-4.5 | 1.5.5        | Future     |
+| 2.10      | Benchmark   | NALCMS    | GSDE  | CMIP6/CanESM5       | SSP3-7.0 | 1.5.5        | Future     |
+| 2.11      | Benchmark   | NALCMS    | GSDE  | CMIP6/CanESM5       | SSP5-8.5 | 1.5.5        | Future     |
 | 2.12      | MERIT-Hydro | NALCMS    | GSDE  | CaSR v3.2           | N/A      | 1.5.5        | Historical |
 | 2.13      | MERIT-Hydro | NALCMS    | GSDE  | ERA5-Land           | N/A      | 1.5.5        | Historical |
 | 2.14      | MERIT-Hydro | NALCMS    | GSDE  | CMIP6/MPI-ESM1-2-LR | N/A      | 1.5.5        | Historical |
