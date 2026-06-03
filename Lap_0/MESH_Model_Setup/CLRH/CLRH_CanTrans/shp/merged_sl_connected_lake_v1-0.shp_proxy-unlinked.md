@@ -1,0 +1,1 @@
+File "merged_sl_connected_lake_v1-0.shp" is too large for GitHub. Access it [here]([Link]) via Globus connect.

@@ -1,0 +1,17 @@
+        Lap: 2.06
+      Theme: Base case 1 - MERIT - NALCMS - GSDE - Distributed parameterization-CaSRv3p2
+     Status: Complete
+Responsible: Zelalem
+ Supporting: nan
+       Date: 10-Nov-25
+     Models: MESH
+    Version: 1.5.5
+ Run method: domain chunking
+     Period: 1980 - 2023
+    Domains: All of Canada, including transboundary
+Aggregation: 100 km^2
+Calibration: No
+  Geofabric: Merit Hydro
+    Routing: WATroute
+  Landcover: NALCMS
+      Soils: GSDE

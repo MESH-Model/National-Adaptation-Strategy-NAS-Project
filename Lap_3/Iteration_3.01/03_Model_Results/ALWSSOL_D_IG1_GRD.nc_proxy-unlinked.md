@@ -1,0 +1,1 @@
+File "ALWSSOL_D_IG1_GRD.nc" is too large for GitHub. Access it [here]([Link]) via Globus connect.

@@ -1,0 +1,17 @@
+        Lap: nan
+      Theme: Base case 1 - MERIT - NALCMS - SoilGrid - Distributed parameterization-CaSRv3p2
+     Status: Run completed 
+Responsible: Zelalem
+ Supporting: nan
+       Date: nan
+     Models: nan
+    Version: 1.5.5
+ Run method: domain chunking
+     Period: 1980 - 2018
+    Domains: nan
+Aggregation: nan
+Calibration: nan
+  Geofabric: nan
+    Routing: nan
+  Landcover: nan
+      Soils: nan
