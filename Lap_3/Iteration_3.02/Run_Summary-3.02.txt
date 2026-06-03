@@ -1,0 +1,17 @@
+        Lap: nan
+      Theme: Base case 1 -  CLRH - NALCMS - GSDE - Lumped parameterization-CaSRv3p2 - without lakes
+     Status: Run completed 
+Responsible: Zelalem
+ Supporting: nan
+       Date: 24-Mar-26
+     Models: "
+    Version: 1.5.5
+ Run method: domain chunking
+     Period: 1980 - 2018
+    Domains: Routing Benchmark Basins
+Aggregation: 100 km^2
+Calibration: No
+  Geofabric: CLRH
+    Routing: WATroute
+  Landcover: "
+      Soils: "

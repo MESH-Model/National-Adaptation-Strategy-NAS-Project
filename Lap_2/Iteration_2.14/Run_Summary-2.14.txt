@@ -1,0 +1,17 @@
+        Lap: nan
+      Theme: Intitial Climate Change Simulations - full domain (parameterization from iteration 2.01)-MPI-ESM1-2-LR Historical
+     Status: Complete
+Responsible: Sujata
+ Supporting: nan
+       Date: 10-Feb-26
+     Models: "
+    Version: 1.5.5
+ Run method: domain chunking
+     Period: 1950 - 2014
+    Domains: All of Canada, including transboundary
+Aggregation: 100 km^2
+Calibration: nan
+  Geofabric: "
+    Routing: WATroute
+  Landcover: "
+      Soils: "
