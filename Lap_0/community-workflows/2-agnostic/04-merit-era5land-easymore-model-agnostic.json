@@ -1,0 +1,39 @@
+{
+  "exec": {
+	  "remap": "easymore cli"
+  },
+
+  "args": {
+    "remap": [{
+      "case-name": "remapped",
+      "cache": "/home/zelalem/scratch/cantrans-models/era5land-easymore-outputs3/CACHEFOLDER/",
+      "shapefile": "/home/zelalem/github-repos/community-workflows/1-geofabric/MERIT/CanTrans-merit-geofabric/sorted_agg_MERIT_CanTrans_subbasins.shp",
+      "source-nc": "/project/6102189/zelalem/era5land-datatool-outputs_withunit/missing_files/era5l.DATAFOLDER.*.subset.nc*",
+      "remap-file": "/home/zelalem/scratch/cantrans-models/era5land-easymore-outputs/cache_cli/remapped_remapping.nc",
+      "shapefile-id": "Rank",
+      "variable-lon": "longitude",
+      "variable-lat": "latitude",
+      "variable": [
+      "p",
+	 "ssrd",
+	 "strd", 
+      "sp",
+	 "q",
+	 "t2m",
+      "wind_speed",
+	 "u10",
+      "v10"
+      ],
+      "remapped-var-id": "subbasin",
+      "remapped-dim-id": "subbasin",
+      "output-dir": "/home/zelalem/scratch/cantrans-models/era5land-easymore-outputs3/",
+      "job-conf": "/home/zelalem/github-repos/community-workflows/2-agnostic/easymore-job.slurm",
+      "_flags": [
+        "submit-job"
+      ]
+    }]
+  },
+  "order": {
+    "remap": -1
+  }
+}

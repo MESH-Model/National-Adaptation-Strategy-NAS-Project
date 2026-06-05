@@ -1,0 +1,5 @@
+Task: 38
+INPUT : /scratch/zelalem/cantrans-models/camels-casr3p2-easymore-outputs/easymore-outputs-yearly/remapped_remapped_casr_2017.nc
+MASK  : /scratch/zelalem/cantrans-models/Calibration/GroupCalibration02/MESH_drainage_database_regrouped_Polish.nc
+OUTPUT: /scratch/zelalem/cantrans-models/Calibration/GroupCalibration02/easymore-outputs-yearly/remapped_remapped_casr_2017.nc
+Done: /scratch/zelalem/cantrans-models/Calibration/GroupCalibration02/easymore-outputs-yearly/remapped_remapped_casr_2017.nc
