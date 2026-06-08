@@ -1,0 +1,153 @@
+{
+  "exec": {
+    "met": "/home/zelalem/github-repos/datatool/extract-dataset.sh",
+    "gis": "/home/zelalem/github-repos/gistool/extract-gis.sh",
+    "remap": "easymore cli"
+  },
+
+  "args": {
+    "met": [{
+      "dataset": "CASR",
+      "dataset-dir": "/project/6102189/data/meteorological-data/casrv3.1/",
+      "variable": [
+        "CaSR_v3.1_P_P0_SFC",		
+	"CaSR_v3.1_P_HU_09975",
+	"CaSR_v3.1_P_TT_09975",
+        "CaSR_v3.1_P_UVC_09975",
+        "CaSR_v3.1_A_PR0_SFC",
+	"CaSR_v3.1_P_FB_SFC",
+	"CaSR_v3.1_P_FI_SFC",
+        "CaSR_v3.1_P_VVC_09975",
+        "CaSR_v3.1_P_UUC_09975"		
+      ],
+      "output-dir": "/home/zelalem/scratch/cantrans-models/datatool-outputs",
+      "start-date": "1980-01-01T13:00:00",
+      "end-date": "1980-01-02T12:00:00",
+      "lat-lims": "",
+      "lon-lims": "",
+      "shape-file": "/home/zelalem/github-repos/community-workflows/1-geofabric/CanTrans-merit-geofabric/agg_MERIT_CanTrans_rivers.shp",
+      "model": "",
+      "ensemble": "",
+      "prefix": "CanTrans_model_",
+      "email": "zelalem@ucalgary.ca",
+      "cluster": "./etc/clusters/ucalgary-arc.json",
+      "_flags": [
+        "submit-job",
+        "parsable"
+      ]
+    }],
+
+    "gis": [{
+      "dataset": "landsat",
+      "dataset-dir": "/project/6102189/data/geospatial-data/Landsat",
+      "variable": "land-cover",
+      "start-date": "2020",
+      "end-date": "2020",
+      "output-dir": "/home/zelalem/scratch/cantrans-models/gistool-outputs",
+      "lat-lims": "",
+      "lon-lims": "",
+      "shape-file": "/home/zelalem/github-repos/community-workflows/1-geofabric/CanTrans-merit-geofabric/agg_MERIT_CanTrans_rivers.shp",
+      "print-geotiff": "true",
+      "stat": [
+        "frac",
+        "coords"
+      ],
+      "quantile": "",
+      "prefix": "CanTrans_model_",
+      "email": "zelalem@ucalgary.ca",
+      "fid": "COMID",
+      "_flags": [
+	"include-na",
+        "submit-job",
+        "parsable"
+      ]
+    },
+
+    {
+      "dataset": "soil-grids-v1",
+      "dataset-dir": "/project/6102189/data/geospatial-data/SoilGridsV1/soilgrids/former/2017-03-10/data",
+      "variable":"CLYPPT_M_sl7_250m_ll,SNDPPT_M_sl1_250m_ll,SNDPPT_M_sl2_250m_ll,SNDPPT_M_sl3_250m_ll,SNDPPT_M_sl4_250m_ll,SNDPPT_M_sl5_250m_ll,SNDPPT_M_sl6_250m_ll,SNDPPT_M_sl7_250_ll,ORCDRC_M_sl1_250m_ll,ORCDRC_M_sl2_250m_ll,ORCDRC_M_sl3_250m_l,ORCDRC_M_sl4_250m_ll,ORCDRC_M_sl5_250m_ll,ORCDRC_M_sl6_250m_ll,ORCDRC_M_sl7_250m_ll",
+      "start-date": "",
+      "end-date": "",
+      "output-dir": "/home/zelalem/scratch/cantrans-models/gistool-outputs/soilgrid_data",
+      "lat-lims": "",
+      "lon-lims": "",
+      "shape-file": "/home/zelalem/github-repos/community-workflows/1-geofabric/CanTrans-merit-geofabric/agg_MERIT_CanTrans_rivers.shp",
+      "print-geotiff": "true",
+      "stat": [
+        "min",
+        "max",
+        "mean",
+        "median"
+      ],
+      "quantile": "",
+      "prefix": "CanTrans_model_",
+      "email": "xzelalem.tesemma@usask.ca",
+      "account": "rpp-kshook",
+      "fid": "COMID",
+	  "lib-path": "/project/rrg-alpie/local/envs/r-env/",
+      "_flags": [
+        "submit-job",
+        "parsable"
+      ]
+    },
+   
+    {
+      "dataset": "soil_class",
+      "dataset-dir": "/project/6102189/data/geospatial-data/soil_classes",
+      "variable": "soil_classes",
+      "start-date": "",
+      "end-date": "",
+      "output-dir": "/home/zelalem/scratch/cantrans-models/gistool-outputs",
+      "lat-lims": "",
+      "lon-lims": "",
+      "shape-file": "/home/zelalem/github-repos/community-workflows/1-geofabric/CanTrans-merit-geofabric/agg_MERIT_CanTrans_rivers.shp",
+      "print-geotiff": "true",
+      "stat": [
+        "majority"
+      ],
+      "quantile": "",
+      "prefix": "CanTrans_model_",
+      "email": "zelalem@ucalgary.ca",
+      "fid": "COMID",
+      "_flags": [
+	"include-na",
+        "submit-job",
+        "parsable"
+      ]
+    }],
+
+    "remap": [{
+      "case-name": "remapped",
+      "cache": "/home/zelalem/scratch/cantrans-models/easymore-outputs/cache/",
+      "shapefile": "/home/zelalem/github-repos/community-workflows/1-geofabric/CanTrans-merit-geofabric/agg_MERIT_CanTrans_rivers.shp",
+      "shapefile-id": "COMID",
+      "source-nc": "/home/zelalem/scratch/cantrans-models/datatool-outputs/**/*.nc*",
+      "variable-lon": "lon",
+      "variable-lat": "lat",
+      "variable": [
+        "CaSR_v3.1_P_P0_SFC",		
+	"CaSR_v3.1_P_HU_09975",
+	"CaSR_v3.1_P_TT_09975",
+        "CaSR_v3.1_P_UVC_09975",
+        "CaSR_v3.1_A_PR0_SFC",
+	"CaSR_v3.1_P_FB_SFC",
+	"CaSR_v3.1_P_FI_SFC",
+        "CaSR_v3.1_P_VVC_09975",
+        "CaSR_v3.1_P_UUC_09975"	
+      ],
+      "remapped-var-id": "COMID",
+      "remapped-dim-id": "COMID",
+      "output-dir": "/home/zelalem/scratch/cantrans-models/easymore-outputs/",
+      "job-conf": "/home/zelalem/github-repos/MESH-Bow-at-Calgary/2-agnostic/easymore-job.slurm",
+      "_flags": [
+        "submit-job"
+      ]
+    }]
+  },
+  "order": {
+    "met": 1,
+    "gis": -1,
+    "remap": 2
+  }
+}
