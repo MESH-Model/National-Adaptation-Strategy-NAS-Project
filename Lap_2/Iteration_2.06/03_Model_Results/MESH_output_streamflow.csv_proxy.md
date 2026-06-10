@@ -1,0 +1,1 @@
+File "MESH_output_streamflow.csv" is too large for GitHub. Access it [here](https://globus.alliancecan.ca/file-manager?origin_id=8dec4129-9ab4-451d-a45f-5b4b8471f7a3&origin_path=%2Fhome%2Frileyd24%2Fprojects%2Frrg-alpie%2FGlobus-Sharing%2FNAS%2FLap_2%2FIteration_2.06%2F03_Model_Results%2F) via Globus connect.
