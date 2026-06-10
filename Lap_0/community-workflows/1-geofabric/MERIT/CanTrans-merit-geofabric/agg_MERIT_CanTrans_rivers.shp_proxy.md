@@ -1,0 +1,1 @@
+File "agg_MERIT_CanTrans_rivers.shp" is too large for GitHub. Access it [here](https://globus.alliancecan.ca/file-manager?origin_id=8dec4129-9ab4-451d-a45f-5b4b8471f7a3&origin_path=%2Fhome%2Frileyd24%2Fprojects%2Frrg-alpie%2FGlobus-Sharing%2FNAS%2FLap_0%2Fcommunity-workflows%2F1-geofabric%2FMERIT%2FCanTrans-merit-geofabric%2F) via Globus connect.
