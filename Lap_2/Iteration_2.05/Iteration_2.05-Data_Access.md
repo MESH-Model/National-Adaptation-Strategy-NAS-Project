@@ -1,1 +1,1 @@
-Access model forcing, setup, and outputs for Iteration_2.05 via [Globus Connect](https://app.globus.org/file-manager?destination_id=8dec4129-9ab4-451d-a45f-5b4b8471f7a3&destination_path=%2Fhome%2Frileyd24%2Fprojects%2Frrg-alpie%2FGlobus-Sharing%2FNAS%2FLap_2%2FIteration_2.05%2F)
+Access model forcing, setup, and outputs for Iteration_2.05 via [Globus Connect](https://app.globus.org/file-manager?destination_id=077d392e-9ba5-442c-aebb-111279f91e13&destination_path=%2FLap_2%2FIteration_2.05%2F)
