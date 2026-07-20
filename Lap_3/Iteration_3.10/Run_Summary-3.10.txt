@@ -1,17 +1,17 @@
         Lap: nan
-      Theme: Intitial Climate Change Simulations - full domain (parameterization from iteration 2.01)
+      Theme: Base case 1 -  Explore the pros/cons of grid / vector forcing
      Status: nan
-Responsible: Sujata
+Responsible: Zelalem
  Supporting: nan
        Date: nan
-     Models: nan
-    Version: nan
- Run method: nan
-     Period: nan
-    Domains: nan
-Aggregation: nan
-Calibration: nan
-  Geofabric: nan
-    Routing: nan
-  Landcover: nan
-      Soils: nan
+     Models: MESH
+    Version: 1.5.5
+ Run method: domain chunking
+     Period: 1981 - 2024
+    Domains: All of Canada, including transboundary
+Aggregation: 100 km^2
+Calibration: No
+  Geofabric: Merit Hydro
+    Routing: Raven
+  Landcover: NALCMS
+      Soils: GSDE

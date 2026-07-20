@@ -4,14 +4,14 @@
 Responsible: Sujata
  Supporting: nan
        Date: 10-Feb-26
-     Models: "
+     Models: MESH
     Version: 1.5.5
  Run method: domain chunking
      Period: 1950 - 2014
     Domains: All of Canada, including transboundary
 Aggregation: 100 km^2
 Calibration: nan
-  Geofabric: "
+  Geofabric: Merit Hydro
     Routing: WATroute
-  Landcover: "
-      Soils: "
+  Landcover: NALCMS
+      Soils: GSDE

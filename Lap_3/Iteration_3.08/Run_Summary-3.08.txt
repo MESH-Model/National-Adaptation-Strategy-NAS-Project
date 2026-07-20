@@ -4,14 +4,14 @@
 Responsible: Zelalem
  Supporting: nan
        Date: 14-May-26
-     Models: nan
+     Models: MESH
     Version: 1.5.5
- Run method: nan
-     Period: nan
-    Domains: nan
-Aggregation: nan
-Calibration: nan
-  Geofabric: nan
-    Routing: nan
-  Landcover: nan
-      Soils: nan
+ Run method: domain chunking
+     Period: 1980 - 2024
+    Domains: All of Canada, including transboundary
+Aggregation: 100 km^2
+Calibration: No
+  Geofabric: CLRH
+    Routing: MizuRoute
+  Landcover: NALCMS
+      Soils: GSDE

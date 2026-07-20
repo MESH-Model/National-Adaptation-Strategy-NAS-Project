@@ -1,0 +1,17 @@
+        Lap: nan
+      Theme: Selected CAMELSpat basin using a more traditional calibration approach (dominant landcover calibration)  - LowVege
+     Status: Run completed 
+Responsible: Zelalem
+ Supporting: nan
+       Date: 30-June-26
+     Models: MESH
+    Version: 1.5.7
+ Run method: non-chunking
+     Period: 1980 - 2024
+    Domains: Selected basins based on dominant land cover
+Aggregation: 100 km^2
+Calibration: Yes
+  Geofabric: CAMELS-SPAT
+    Routing: WATroute
+  Landcover: NALCMS
+      Soils: SoilGrid

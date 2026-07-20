@@ -1,0 +1,17 @@
+        Lap: nan
+      Theme: CAMELSpat Calibration basin (305 basins) run using the dominant land cover based calibration ( from lap 4.01-4.08)
+     Status: Run completed 
+Responsible: Zelalem
+ Supporting: nan
+       Date: 30-June-26
+     Models: MESH
+    Version: 1.5.7
+ Run method: non-chunking
+     Period: 1980 - 2024
+    Domains: Selected basins based on dominant land cover
+Aggregation: 100 km^2
+Calibration: Yes
+  Geofabric: CAMELS-SPAT
+    Routing: WATroute
+  Landcover: NALCMS
+      Soils: SoilGrid

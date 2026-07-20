@@ -1,0 +1,17 @@
+        Lap: nan
+      Theme: Full CanTrans domain with calbrated parameter set from overall landcover calibration with calibration of 4.09
+     Status: Run completed 
+Responsible: Zelalem
+ Supporting: nan
+       Date: 30-June-26
+     Models: MESH
+    Version: 1.5.7
+ Run method: domain chunking
+     Period: 1980 - 2024
+    Domains: All of Canada, including transboundary
+Aggregation: 100 km^2
+Calibration: Yes
+  Geofabric: Merit Hydro
+    Routing: WATroute
+  Landcover: NALCMS
+      Soils: SoilGrid

@@ -4,14 +4,14 @@
 Responsible: Zelalem
  Supporting: nan
        Date: 5-Apr-26
-     Models: "
+     Models: MESH
     Version: 1.5.5
  Run method: domain chunking
-     Period: 1980 - 2018
-    Domains: CamelSpat basins
+     Period: 1980 - 2024
+    Domains: All of Canada, including transboundary
 Aggregation: 100 km^2
 Calibration: No
   Geofabric: Merit modified to Camelspat
     Routing: WATroute
-  Landcover: "
-      Soils: "
+  Landcover: NALCMS
+      Soils: GSDE

@@ -1,0 +1,17 @@
+        Lap: nan
+      Theme: CamelSpat headwater basins with estimated Manning's n values based on site characterization within NHS
+     Status: nan
+Responsible: Ethan
+ Supporting: nan
+       Date: nan
+     Models: MESH
+    Version: 1.5.5
+ Run method: non-chunking
+     Period: 1982 - 2024
+    Domains: CamelSpat basins
+Aggregation: 100 km^2
+Calibration: No
+  Geofabric: Merit Hydro
+    Routing: WATroute
+  Landcover: NALCMS
+      Soils: GSDE
