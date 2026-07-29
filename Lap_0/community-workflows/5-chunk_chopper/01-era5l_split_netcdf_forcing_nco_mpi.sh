@@ -3,10 +3,10 @@
 #SBATCH --job-name=split_casr_netcdf
 #SBATCH --output=split_casr_%A_%a.out
 #SBATCH --error=split_casr_%A_%a.err
-#SBATCH --time=23:00:00                     # Adjust after benchmarking
+#SBATCH --time=25:00:00                     # Adjust after benchmarking
 #SBATCH --cpus-per-task=4                   # Use more CPUs for multithreaded ncks
-#SBATCH --mem=16G                           # Adjust based on chunk size and test runs
-#SBATCH --array=0-149                       # (total_subbasins / chunk_size) - 1
+#SBATCH --mem=64G                           # Adjust based on chunk size and test runs
+#SBATCH --array=4,22,133,134  #0-149                       # (total_subbasins / chunk_size) - 1
 
 # Load required module
 module load nco
@@ -15,10 +15,10 @@ module load nco
 export OMP_NUM_THREADS=$SLURM_CPUS_PER_TASK
 
 # Configuration
-input_file="remapped_remapped_casr_1979_2024_forcing.nc"
-chunk_size=564 #520 #564
-total_subbasins=84269 #77017 #84269
-output_dir="./CLRH_CaSRv3p2_chunk_forcing"
+input_file="remapped_remapped_era5l_1950_2024_forcing.nc"
+chunk_size=520
+total_subbasins=77017            #84269
+output_dir="./MERIT_ERA5L_chunk_forcing"
 mkdir -p "$output_dir"
 
 # Calculate chunk range for this array task
