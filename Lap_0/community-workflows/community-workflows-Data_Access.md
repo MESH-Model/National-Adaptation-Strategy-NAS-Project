@@ -1,1 +1,0 @@
-Access model forcing, setup, and outputs for community-workflows via [Globus Connect](https://app.globus.org/file-manager?destination_id=077d392e-9ba5-442c-aebb-111279f91e13&destination_path=%2FLap_0%2Fcommunity-workflows%2F)

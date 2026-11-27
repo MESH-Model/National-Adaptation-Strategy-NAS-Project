@@ -1,1 +1,0 @@
-Access model forcing, setup, and outputs for Iteration_2.06 via [Globus Connect](https://app.globus.org/file-manager?destination_id=077d392e-9ba5-442c-aebb-111279f91e13&destination_path=%2FLap_2%2FIteration_2.06%2F)

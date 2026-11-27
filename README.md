@@ -62,15 +62,21 @@ The domain reflects the geographical and hydrological diversity of Canada's rive
 
 ---
 
+## Data Access
+
+Inputs and outputs can be publicly accessed via [Globus Connect](https://app.globus.org/file-manager?destination_id=077d392e-9ba5-442c-aebb-111279f91e13&destination_path=%2F), organized with the same directory structure as this GitHub repository. Files are not provided in this repository due to size limitations.
+
+Globus may be accessed using Digital Research Alliance of Canada or GitHub credentials. If there are issues accessing data please contact the project team.
 
 
 ## Project Team
 
 - Zelalem Tesemma, Environment and Climate Change Canada (zelalem.tesemma@ec.gc.ca)
 - Sujata Budhathoki, Environment and Climate Change Canada (sujata.budhathoki@ec.gc.ca)
-- Riley Damen, Environment and Climate Change Canada (riley.damen@ec.gc.ca)
+- Riley Damen, Environment and Climate Change Canada (student)
 - Frank Seglenieks, Environment and Climate Change Canada (frank.seglenieks@ec.gc.ca)
 - Bruce Davison, Environment and Climate Change Canada (bruce.davison@ec.gc.ca)
+- Ethan Johnson, Environment and Climate Change Canada (ethan.johnson@ec.gc.ca)
 
 ## Disclaimer
 This is an active research repository. Model configurations, parameters, and outputs are subject to change as improvements are made. Please contact the project team before using this material for publications or decision-making applications.
