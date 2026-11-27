@@ -1,17 +1,17 @@
         Lap: nan
-      Theme: Base case 1 -  Raven - CLRH - NALCMS - GSDE - Lumped parameterization-CaSRv3p2
+      Theme: Base case 1 -  Raven - CLRH - NALCMS - GSDE - Lumped parameterization-CaSRv3p2 - without DZTR, but with all lakes and reservoirs as weirs
      Status: nan
 Responsible: Zelalem
  Supporting: nan
        Date: nan
-     Models: nan
+     Models: MESH
     Version: 1.5.5
- Run method: nan
-     Period: nan
-    Domains: nan
-Aggregation: nan
-Calibration: nan
-  Geofabric: nan
-    Routing: nan
-  Landcover: nan
-      Soils: nan
+ Run method: domain chunking
+     Period: 1980 - 2024
+    Domains: All of Canada, including transboundary
+Aggregation: 100 km^2
+Calibration: No
+  Geofabric: CLRH
+    Routing: Raven
+  Landcover: NALCMS
+      Soils: GSDE

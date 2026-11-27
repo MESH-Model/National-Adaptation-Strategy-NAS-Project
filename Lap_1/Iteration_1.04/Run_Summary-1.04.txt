@@ -4,14 +4,14 @@
 Responsible: Sujata
  Supporting: nan
        Date: 24-Jul-25
-     Models: "
+     Models: MESH
     Version: 1860_ME_ZT
  Run method: non-chunking
      Period: 1950 - 2100
     Domains: Climate Change Benchmark Basins
 Aggregation: 100 km^2
 Calibration: No
-  Geofabric: "
+  Geofabric: Merit Hydro
     Routing: WATroute
-  Landcover: "
+  Landcover: NALCMS
       Soils: "

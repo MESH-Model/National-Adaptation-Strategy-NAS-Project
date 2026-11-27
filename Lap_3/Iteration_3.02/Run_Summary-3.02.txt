@@ -4,14 +4,14 @@
 Responsible: Zelalem
  Supporting: nan
        Date: 24-Mar-26
-     Models: "
+     Models: MESH
     Version: 1.5.5
  Run method: domain chunking
-     Period: 1980 - 2018
-    Domains: Routing Benchmark Basins
+     Period: 1980 - 2024
+    Domains: All of Canada, including transboundary
 Aggregation: 100 km^2
 Calibration: No
   Geofabric: CLRH
     Routing: WATroute
-  Landcover: "
-      Soils: "
+  Landcover: NALCMS
+      Soils: GSDE

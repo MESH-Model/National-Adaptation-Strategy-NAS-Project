@@ -3,15 +3,15 @@
      Status: Run completed 
 Responsible: Zelalem
  Supporting: nan
-       Date: nan
-     Models: nan
+       Date: 14-May-26
+     Models: MESH
     Version: 1.5.5
  Run method: domain chunking
-     Period: 1980 - 2018
-    Domains: nan
-Aggregation: nan
-Calibration: nan
-  Geofabric: nan
-    Routing: nan
-  Landcover: nan
-      Soils: nan
+     Period: 1980 - 2024
+    Domains: All of Canada, including transboundary
+Aggregation: 100 km^2
+Calibration: No
+  Geofabric: Merit Hydro
+    Routing: WATroute
+  Landcover: NALCMS
+      Soils: SoilGrid

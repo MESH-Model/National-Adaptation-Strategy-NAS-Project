@@ -1,4 +1,4 @@
-        Lap: nan
+        Lap: 1
       Theme: Base case 0 - run with uncalibrated paramters
      Status: Complete
 Responsible: Zelalem 

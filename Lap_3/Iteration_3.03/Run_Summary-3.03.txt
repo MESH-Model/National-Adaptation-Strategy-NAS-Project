@@ -1,17 +1,17 @@
         Lap: nan
-      Theme: Base case 1 -  CLRH - NALCMS - GSDE - Lumped parameterization-CaSRv3p2 - with lakes  (version 1)
+      Theme: Base case 1 -  Raven - CLRH - NALCMS - GSDE - Lumped parameterization-CaSRv3p2 - with DZTR
      Status: nan
 Responsible: Zelalem and Fuad
  Supporting: nan
        Date: nan
-     Models: "
+     Models: MESH
     Version: 1.5.5
  Run method: domain chunking
-     Period: 1980 - 2018
-    Domains: Routing Benchmark Basins
+     Period: 1980 - 2024
+    Domains: All of Canada, including transboundary
 Aggregation: 100 km^2
 Calibration: No
   Geofabric: CLRH
-    Routing: WATroute
-  Landcover: "
-      Soils: "
+    Routing: Raven
+  Landcover: NALCMS
+      Soils: GSDE

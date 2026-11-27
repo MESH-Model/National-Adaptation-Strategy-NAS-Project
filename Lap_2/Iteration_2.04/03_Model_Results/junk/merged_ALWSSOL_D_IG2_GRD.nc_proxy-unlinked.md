@@ -1,1 +1,0 @@
-File "merged_ALWSSOL_D_IG2_GRD.nc" is too large for GitHub. Access it [here]([Link]) via Globus connect.
